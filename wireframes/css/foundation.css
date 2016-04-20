@@ -3203,7 +3203,10 @@ table.hover tr:nth-of-type(even):hover {
     transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 0.5rem; 
+  text-align: center;
+}
+
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table;
