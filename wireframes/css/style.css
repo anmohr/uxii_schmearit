@@ -3,19 +3,6 @@ body{
 	background-color: #F4EFEB;
 }
 
-#title {
-
-    float:left;
-    margin: auto;
-}
-
-.reg_text {
-    font-size: 12px;   
-}
-
-.center1 {
-	margin-left: auto;
-	margin-right: auto;
-
-
+.button{
+	background-color: #FE3501;
 }
