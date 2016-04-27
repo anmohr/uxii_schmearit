@@ -6,3 +6,11 @@ body{
 .button{
 	background-color: #FE3501;
 }
+
+#title {
+
+float:left;
+margin: auto;
+
+}
+

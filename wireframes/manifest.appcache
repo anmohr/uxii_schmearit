@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# version - 00
+
+CACHE:
+
+# CSS
+css/style.css
+
+# IMAGES
+
+
+# HTML FILES
+index.html
+
+# JAVASCRIPT - SPECIFIC ORDER
+js/app.js
+js/vendor/refresh-manifest.js
+js/lib/jquery.min.js
+
+## Any resources not listed above will require the user to be online.
+NETWORK:
+*
