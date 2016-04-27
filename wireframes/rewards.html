@@ -2,6 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.clearing.js"></script>
+  <!-- Other JS plugins can be included here -->
+
+  <script>
+    $(document).foundation();
+  </script>
+
+<!-- this will include every plugin and utility required by Foundation -->
+<script src="js/foundation.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+       <link rel="stylesheet" href="css/rewards.css">
 
 	<title>Rewards</title>
 	<meta name="description" content="Rewards">
@@ -15,10 +29,9 @@
 </head>
 
 <body class="site">
-			<h1 >Rewards</h1> 
+	
 
 	<div class="qrcode">
-		
 		<img src="images/qrcode.png" alt="QR Code">
 	</div>
 
@@ -29,7 +42,9 @@
 	</div>
 
 	<div>
+	<div id="closebutton">
 		<a class="button" href="index.html">Close</a>
+		</div>
 	</div>
 </body>
 </html>
