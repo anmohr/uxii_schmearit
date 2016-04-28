@@ -14,3 +14,13 @@ margin: auto;
 
 }
 
+
+.menu-button {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.rewards-button {
+    border: 1px solid black;
+    padding: 3em;
+}
