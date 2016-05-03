@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color: #7FDBFA;
+}
+
+body {
+    background-color: #2E2E2E;
+    margin: 20px;
+}
+
+#submitbutton{
+    background-color: #FF4D00;
+    height: 44px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.row label{
+color: white;
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+#fbbutton{
+    background-color: #3b5998;
+    margin-top: 5px;
+}
+
+#passwordHelpText{
+    color: white;
+}
+
+#submitbutton2{
+    background-color: #FF4D00;
+    height: 44px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#logo{
+height: 20%;
+    margin-left: 20%;
+}
