@@ -1,7 +1,24 @@
+@font-face {
+    font-family: 'economicaregular';
+    src: url('../font/economica-regular-otf-webfont.eot');
+    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/economica-regular-otf-webfont.woff2') format('woff2'),
+         url('../font/economica-regular-otf-webfont.woff') format('woff'),
+         url('../font/economica-regular-otf-webfont.ttf') format('truetype'),
+         url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+a{
+    font-size: 30px;
+    color: #2e4c57;
+}
 
 body{
 	background-color: #FcEBE5;
+    font-size: 20px;
 }
 
 .button{
@@ -19,9 +36,14 @@ margin: auto;
     background-color: #ff5d2b;
 }
 
+.top-bar h1{
+    font-size: 32px;
+    color: #fff;
+}
+
 .menu-button {
     background-image: url('../images/ribbon.png');
-    padding: 2em;
+    padding: 1.2em;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0 auto;
@@ -31,11 +53,19 @@ margin: auto;
 
 .rewards-button {
     background-color: #2e4c57;
-    padding: 3.5em;
 }
 
 h1{
-    color:#fff;
+    font-size: 28px;
+    color:#2e4c57;
+    font-weight: bold;
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    
 }
 
 .color{
@@ -45,22 +75,15 @@ h1{
 .overlay {
     position: relative;
 
-
+}
 
 #vlightbox1 {
     width: 100%;
 }
 
-@font-face {
-    font-family: 'economicaregular';
-    src: url('../font/economica-regular-otf-webfont.eot');
-    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/economica-regular-otf-webfont.woff2') format('woff2'),
-         url('../font/economica-regular-otf-webfont.woff') format('woff'),
-         url('../font/economica-regular-otf-webfont.ttf') format('truetype'),
-         url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
+.thumbnail {
+    background-color: #fff;
+    margin: 0 auto;
+    
 }
-
