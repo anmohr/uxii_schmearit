@@ -31,9 +31,13 @@ margin: auto;
 .rewards-button {
     background-color: #2e4c57;
     border: 1px solid black;
-    padding: 3em;
+    padding: 3.5em;
 }
 
 h1{
     color:#fff;
+}
+
+.color{
+    background-color: #2e4c57;
 }
