@@ -1,10 +1,10 @@
 
 body{
-	background-color: #F4EFEB;
+	background-color: #FcEBE5;
 }
 
 .button{
-	background-color: #FE3501;
+	background-color: #ff5d2b;
 }
 
 #title {
@@ -14,13 +14,26 @@ margin: auto;
 
 }
 
+.top-bar{
+    background-color: #ff5d2b;
+}
 
 .menu-button {
+    background-image: url('../images/ribbon.png');
     border: 1px solid black;
     padding: 2em;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center;
 }
 
 .rewards-button {
+    background-color: #2e4c57;
     border: 1px solid black;
     padding: 3em;
+}
+
+h1{
+    color:#fff;
 }
