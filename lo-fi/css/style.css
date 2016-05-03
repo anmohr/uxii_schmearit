@@ -20,7 +20,6 @@ margin: auto;
 
 .menu-button {
     background-image: url('../images/ribbon.png');
-    border: 1px solid black;
     padding: 2em;
     background-repeat: no-repeat;
     text-align: center;
@@ -28,9 +27,9 @@ margin: auto;
     background-position: center;
 }
 
+
 .rewards-button {
     background-color: #2e4c57;
-    border: 1px solid black;
     padding: 3.5em;
 }
 
@@ -47,7 +46,9 @@ h1{
 
 
 
-#vlightbox1 reward-button {
+#vlightbox1 {
     width: 100%;
 }
+
+
 
