@@ -12,6 +12,11 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
     
+    
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="VisualLightBox, LightBox, Photo Gallery, lightbox jquery text, jquery photo lightbox" />
+    
+    
 	<!-- Normalize/reset -->
     <link rel="stylesheet" href="css/normalize.css">
 
@@ -50,6 +55,15 @@
 		href="a/img/startup-640x1096.png"
 		media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" >
 
+<!--   Start of Lightbox-->
+		
+		<link rel="stylesheet" href="lightbox_files/vlb_files1/vlightbox1.css" type="text/css" />
+		<link rel="stylesheet" href="lightbox_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
+<script src="lightbox_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
+		<script src="lightbox_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
+		<!-- End VisualLightBox.com HEAD section -->
+
+
 
 </head>
 <body>
@@ -63,16 +77,17 @@
 			<h1>Schmear It</h1>
 		</div>
 	</div>
- 
-	<div class="row">
-		<div class="small-12 columns rewards-button">
-			<a href="rewards.html">Rewards</a>
-		</div>
+    
+    	<div id="vlightbox1 reward-button">
+	   <a class="vlightbox1" href="lightbox_files/vlb_images1/qrcode.jpg" title=""><img src="images/rewardspanel.png" alt="qrcode"/></a>
+        
+	</div>
+
 
 		<div class="small-12 columns menu-button">
 			<a href="location.html">Location &amp; Hours</a>
 		</div>
-	</div>
+	
 
 	<div class="row">
 		
@@ -100,6 +115,8 @@
 
 	<script src="js/app.js"></script>
 	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
+    <script src="lightbox_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>
+
     
 </body>
 </html>
