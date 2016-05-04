@@ -68,6 +68,11 @@ h2{
     
 }
 
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .color{
     background-color: #2e4c57;
 }
@@ -87,3 +92,13 @@ h2{
     margin: 0 auto;
     
 }
+
+.right-button{
+    float: right;
+    position: relative;
+    font-size: 20px;
+    margin-top: -20px;
+    
+}
+
+    
