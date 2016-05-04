@@ -43,11 +43,12 @@ body{
 
 .menu-button {
     background-image: url('../images/ribbon.png');
-    padding: 1.2em;
+    padding: 0.60em;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0 auto;
     background-position: center;
+    width: 100%;
 }
 
 
@@ -136,4 +137,12 @@ h3{
 
 .position {
     text-align: center;
+}
+
+
+
+
+
+.main-category {
+    margin-top: 10px;
 }
