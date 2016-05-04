@@ -8,7 +8,6 @@
          url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 a{
@@ -26,10 +25,8 @@ body{
 }
 
 #title {
-
-float:left;
-margin: auto;
-
+    float:left;
+    margin: auto;
 }
 
 .top-bar{
@@ -59,13 +56,12 @@ h1{
     font-size: 28px;
     color:#2e4c57;
     font-weight: bold;
-
+    text-align: center;
 }
 
 h2{
     font-size: 24px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 h3{
@@ -89,16 +85,28 @@ h3{
 
 .thumbnail {
     background-color: #fff;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 .right-button{
     float: right;
     position: relative;
     font-size: 20px;
-    margin-top: -20px;
-    
+    margin-top: -20px;   
 }
 
     
+
+.reg-text {
+    font-size: 16px;
+}
+
+.border-it {
+    border: 1px solid black;
+}
+
+
+
+.accordion-item {
+    background-color: white;
+}
