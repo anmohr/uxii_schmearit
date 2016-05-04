@@ -21,7 +21,10 @@ body{
 }
 
 .button{
-	background-color: #ff5d2b;
+	background-color: #ffa382;
+    border: 1px solid transparent;
+    border-right: 1px solid #fefefe;
+    vertical-align: middle;
 }
 
 #title {
@@ -109,4 +112,28 @@ h3{
 
 .accordion-item {
     background-color: white;
+}
+
+
+
+
+
+
+
+.white {
+    background-color: white;
+}
+.button-group {
+    float: none;
+    margin: 0 auto;
+}
+
+.seg_control {
+    margin: 20px;
+}
+
+
+
+.position {
+    text-align: center;
 }
