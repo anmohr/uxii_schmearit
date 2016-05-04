@@ -153,3 +153,10 @@ h3{
 .main-category {
     margin-top: 10px;
 }
+
+.charity-desc {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+    
+}
