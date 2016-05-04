@@ -22,9 +22,16 @@
     font-weight: normal;
     font-style: normal;
 
+@font-face {
+    font-family: 'josefin';
+    src: url('../font/JosefinSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 }
 html {
-  font-family: 'economicaregular';
+  font-family: 'josefin';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -388,7 +395,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "economicaregular", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "josefin", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1221,7 +1228,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "economicaregular", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "josefin", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
