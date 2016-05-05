@@ -1,0 +1,68 @@
+
+
+body{
+	background-color: #FcEBE5;
+}
+
+.button{
+	background-color: #ff5d2b;
+}
+
+#title {
+
+float:left;
+margin: auto;
+
+}
+
+.top-bar{
+    background-color: #ff5d2b;
+}
+
+.menu-button {
+    background-image: url('../images/ribbon.png');
+    border: 1px solid black;
+    padding: 2em;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    background-position: center;
+}
+
+.rewards-button {
+    background-color: #2e4c57;
+    border: 1px solid black;
+    padding: 3.5em;
+}
+
+h1{
+    color:#fff;
+}
+
+.color{
+    background-color: #2e4c57;
+}
+
+.overlay {
+    position: relative;
+
+
+
+#vlightbox1 reward-button {
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'economicaregular';
+    src: url('../font/economica-regular-otf-webfont.eot');
+    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/economica-regular-otf-webfont.woff2') format('woff2'),
+         url('../font/economica-regular-otf-webfont.woff') format('woff'),
+         url('../font/economica-regular-otf-webfont.ttf') format('truetype'),
+         url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
