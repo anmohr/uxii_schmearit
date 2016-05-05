@@ -2,20 +2,17 @@
 <!-- cache not linked yet -->
 <html lang="en" manifest="manifest.appcache">
 
-<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Schmear It</title>
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+	<meta charset="UTF-8" name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+    <title>Schmear It</title>
 
     <!-- iOS Settings -->
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
     
-    
+    <!-- Lightbox Meta Settings -->
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-		<meta name="keywords" content="VisualLightBox, LightBox, Photo Gallery, lightbox jquery text, jquery photo lightbox" />
-    
+    <meta name="keywords" content="VisualLightBox, LightBox, Photo Gallery, lightbox jquery text, jquery photo lightbox" />
     
 	<!-- Normalize/reset -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -55,68 +52,59 @@
 		href="a/img/startup-640x1096.png"
 		media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" >
 
-<!--   Start of Lightbox-->
-		
-		<link rel="stylesheet" href="lightbox_files/vlb_files1/vlightbox1.css" type="text/css" />
-		<link rel="stylesheet" href="lightbox_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
-<script src="lightbox_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
-		<script src="lightbox_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
-		<!-- End VisualLightBox.com HEAD section -->
-
-
-
+    <!--   Start of Lightbox-->
+    <link rel="stylesheet" href="lightbox_files/vlb_files1/vlightbox1.css" type="text/css" />
+    <link rel="stylesheet" href="lightbox_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
+    <script src="lightbox_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
+    <script src="lightbox_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
+    <!-- End VisualLightBox.com HEAD section -->
 </head>
+    
+    
 <body>
     <div class="top-bar">
 		<div class="large-12 columns">
-<!--
-			<div>
-		        <a class="button" href="login.html">Log In</a>
-	        </div>
--->
 			<h1>Schmear It</h1>
+		</div>
+		<div>
+		    <a class="right-button" href="login.html">Log In</a>
 		</div>
 	</div>
     
-    	<div id="vlightbox1 reward-button">
-	   <a class="vlightbox1" href="lightbox_files/vlb_images1/qrcode.jpg" title=""><img src="images/rewardspanel.png" alt="qrcode"/></a>
-        
+    <div id="vlightbox1 reward-button">
+	   <a class="vlightbox1" href="lightbox_files/vlb_images1/qrcode.jpg" title="">
+           <img src="images/rewardspanel.png" alt="qrcode"/>
+        </a>  
 	</div>
+    
+    <div class="main-category">
+        <div class="menu-button">			
+            <a href="location.html"><button type="submit" class="menu-button">Locations &amp; Hours</button></a>
+        </div>
 
+        <div class ="menu-button">
+            <a href="topRated.html"><button type="submit" class="menu-button">Popular Bagels</button></a>
+        </div>
 
-		<div class="small-12 columns menu-button">
-			<a href="location.html">Location &amp; Hours</a>
-		</div>
-	
+        <div class="menu-button">
+            <a href="menu.html"><button type="submit" class="menu-button">Menu</button></a>
+        </div>
 
-	<div class="row">
-		
-		<div class ="small-12 columns menu-button">
-			<a href="topRated.html">Top Rated</a>
-		</div>
-		
-		<div class="small-12 columns menu-button">
-			<a href="menu.html">Menu</a>
-		</div>
-	</div>
+        <div class="menu-button">
+            <a href="recents.html"><button type="submit" class="menu-button">Recents</button></a>
+        </div>
 
-	<div class="row">
-		<div class="small-12 columns menu-button">
-			<a href="recents.html">Recents</a>
-		</div>
-
-		<div class="small-12 columns menu-button">
-			<a href="charity.html">Charity</a>
-		</div>
-	</div>
+        <div class="menu-button">
+            <a href="charity.html"><button type="submit" class="menu-button">Charity</button></a>
+        </div>  
+    </div>
+    
     
 <!-- JAVASCRIPT-->
 	<script src="js/lib/jquery-2.2.3.min.js"></script>
-
 	<script src="js/app.js"></script>
 	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
     <script src="lightbox_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>
-
     
 </body>
 </html>

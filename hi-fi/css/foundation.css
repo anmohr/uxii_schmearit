@@ -22,9 +22,16 @@
     font-weight: normal;
     font-style: normal;
 
+@font-face {
+    font-family: 'josefin';
+    src: url('../font/JosefinSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 }
 html {
-  font-family: 'economicaregular';
+  font-family: 'josefin';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -388,7 +395,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "economicaregular", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "josefin", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1221,7 +1228,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "economicaregular", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "josefin", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1287,7 +1294,7 @@ hr {
   border-top: 0;
   border-bottom: 1px solid #cacaca;
   border-left: 0;
-  margin: 1.25rem auto;
+  margin: 0.5rem auto;
   clear: both; }
 
 ul,
@@ -1796,10 +1803,10 @@ select {
 
 .accordion-title {
   display: block;
-  padding: 1.25rem 1rem;
+  padding: 1rem;
   line-height: 1;
-  font-size: 0.75rem;
-  color: #2199e8;
+  font-size: 20px;
+  color: #2e4c57;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
