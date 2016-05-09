@@ -166,3 +166,13 @@ h3{
     bottom: 0;
     border: 1px solid black;
 }
+
+.rate_star{
+    width: 5%;
+    height: 5%;
+}
+
+.rateMe-button{
+    background-color: #ffa382;
+    padding: 0.1em 0.3em;
+    color: #ffffff;
