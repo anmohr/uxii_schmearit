@@ -2001,7 +2001,8 @@ select {
   border-radius: 0;
   position: relative;
   color: #0a0a0a;
-  background-color: #fff;}
+  background-color: #fff;
+    border: 1px solid gray;}
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {

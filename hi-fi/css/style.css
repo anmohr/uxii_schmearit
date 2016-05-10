@@ -181,3 +181,13 @@ h3{
     background-color: #ffa382;
     padding: 0.1em 0.3em;
     color: #ffffff;
+
+.star {
+    width: 16px;
+    height: 16px;
+}
+
+.heart_fave {
+    height: 18px;
+    width: 18px;
+}
