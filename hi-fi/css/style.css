@@ -17,6 +17,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'josefin';
+    src: url('../font/JosefinSans-SemiBold.ttf');
+    font-weight: bold;
+    font-style: bold;
+}
+
 a{
     font-size: 30px;
     color: #2e4c57;
@@ -117,7 +124,8 @@ h3{
     
 
 .reg-text {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .border-it {
