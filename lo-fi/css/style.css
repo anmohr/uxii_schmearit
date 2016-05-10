@@ -160,3 +160,8 @@ h3{
     text-align: justify;
     
 }
+
+#bagelpic{
+ position: absolute;
+     margin-left: 20px;
+}

@@ -196,7 +196,14 @@ h3{
 #bagel {
     width: 40%;
     float: left;
+
 }
+
+#bagelpic{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 
 .words{
     width: 60%;
