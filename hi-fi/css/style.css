@@ -57,7 +57,7 @@ body{
 
 .menu-button {
     background-image: url('../images/ribbon.png');
-    padding: 0.60em;
+    padding: 0.53em;
     background-repeat: no-repeat;
     text-align: center;
     margin: 0 auto;
@@ -66,10 +66,6 @@ body{
     font-family: 'economicaregular';
 }
 
-
-.rewards-button {
-    background-color: #2e4c57;
-}
 
 h1{
     font-size: 28px;
@@ -100,6 +96,8 @@ h3{
 
 #vlightbox1 {
     width: 100%;
+    background-color: #2e4c57;
+    height: 140px;
 }
 
 
@@ -180,7 +178,8 @@ h3{
 .rateMe-button{
     background-color: #ffa382;
     padding: 0.1em 0.3em;
-    color: #ffffff;
+    color: #ffffff;}
+
 
 .star {
     width: 16px;
@@ -190,4 +189,36 @@ h3{
 .heart_fave {
     height: 18px;
     width: 18px;
+}
+
+
+
+#bagel {
+    width: 40%;
+    float: left;
+}
+
+.words{
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+}
+
+.words h1{
+    color: #fff;
+}
+
+#reward-button {
+    background-color:#ff5d2b;
+    width: 170px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+#reward-button button{
+    padding: 15px 18px 15px 20px;
+    margin:-5px -5px -5px -5px;
+    font-size: 1.8em;
+    color: #fff;
 }
