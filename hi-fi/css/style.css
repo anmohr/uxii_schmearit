@@ -194,7 +194,7 @@ h3{
 
 
 #bagel {
-    width: 40%;
+    width: 35%;
     float: left;
 
 }
@@ -206,9 +206,10 @@ h3{
 
 
 .words{
-    width: 60%;
+    width: 65%;
     float: right;
     margin-top: 20px;
+    margin-right: 
 }
 
 .words h1{
