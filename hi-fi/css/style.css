@@ -35,10 +35,14 @@ body{
 }
 
 .button{
-	background-color: #ffa382;
-    border: 1px solid transparent;
+	background-color: #91d8f1;
     border-right: 1px solid #fefefe;
     vertical-align: middle;
+    text-align: center;
+}
+
+.button-group .button{
+    font-size: 18px;
 }
 
 #title {
@@ -236,3 +240,14 @@ h3{
 
 
 
+
+
+
+.sub_button {
+	background-color: #ff5d2b;
+    border-right: 1px solid #fefefe;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.85em 1em;
+    color: white;
+}
