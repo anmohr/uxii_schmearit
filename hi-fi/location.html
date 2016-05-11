@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Location</title>
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+    <meta charset="UTF-8">
+    <title>Location</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
 
     <!-- iOS Settings -->
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    
-	<!-- Normalize/reset -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- Normalize/reset -->
     <link rel="stylesheet" href="css/normalize.css">
 
     <!-- Foundation -->
@@ -20,35 +21,42 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-	<div class="top-bar">
+    <div class="top-bar">
         <div class="large-12 columns">
-          <div class=" float-left">
-            <a id="title" href="index.html"> <img src="images/web.png" alt="home"></a>
-          </div>
-          <h1>Location</h1>
+            <div class=" float-left">
+                <a id="title" href="index.html"> <img src="images/web.png" alt="home"></a>
+            </div>
+            <h1 id="loc">Location</h1>
+<!--
+        <div id="phone">
+            <img src="images/phone-outline.png" alt="call button">
+        </div>
+-->
+        
         </div>
     </div>
 
     <div class="google-map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3603050626693!2d-75.19391538512062!3d39.95569639147391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c651b1ff27a5%3A0x7f3342fcb10e0b4e!2s3400+Market+St%2C+Philadelphia%2C+PA+19104!5e0!3m2!1sen!2sus!4v1461765820299" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-	</div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.3603050626693!2d-75.19391538512062!3d39.95569639147391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c651b1ff27a5%3A0x7f3342fcb10e0b4e!2s3400+Market+St%2C+Philadelphia%2C+PA+19104!5e0!3m2!1sen!2sus!4v1461765820299" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 
 
-	<div class="large-12 columns reg_text"> 
+    <div class="large-12 columns reg_text">
         <h3>Monday</h3>
         <div class="location1">
             <div class="small-6 columns location-left">
-		      38th &amp; Locust
+                38th &amp; Locust
             </div>
             <div class="small-6 columns time-left">
                 7:30am-10:15am
             </div>
         </div>
-        
+
         <div class="location2">
             <div class="small-6 columns location-left">
-		      College Green
+                College Green
             </div>
             <div class="small-6 columns time-left">
                 11:00am-1:00pm
@@ -57,7 +65,93 @@
     </div>
 
 
-		<!--<h3>Tuesday</h3>
+    <div class="large-12 columns reg_text">
+        <h3>Tuesday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                38th &amp; Locust
+            </div>
+            <div class="small-6 columns time-left">
+                7:30am-2pm
+            </div>
+        </div>
+
+    </div>
+
+    <div class="large-12 columns reg_text">
+        <h3>Wednesday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                38th &amp; Locust
+            </div>
+            <div class="small-6 columns time-left">
+                7:30am-2pm
+            </div>
+        </div>
+
+    </div>
+    
+        <div class="large-12 columns reg_text">
+        <h3>Thursday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                34th &amp; Market
+            </div>
+            <div class="small-6 columns time-left">
+                7:30am-2pm
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="large-12 columns reg_text">
+        <h3>Friday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                LOVE Park
+                
+            </div>
+            <div class="small-6 columns time-left">
+                7:30-9:30am
+            </div>
+        </div>
+        <div class="location2">
+            <div class="small-6 columns location-left">
+                38th &amp; Locust
+            </div>
+            <div class="small-6 columns time-left">
+                11:00am-1:00pm
+            </div>
+        </div>
+    </div>
+    
+            <div class="large-12 columns reg_text">
+        <h3>Saturday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                <a id="catering" href="http://www.schmearit.com/catering.html">Private Catering</a>
+            </div>
+            <div class="small-6 columns time-left">
+                <br>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="large-12 columns reg_text">
+        <h3>Sunday</h3>
+        <div class="location1">
+            <div class="small-6 columns location-left">
+                41st &amp; Locust
+            </div>
+            <div class="small-6 columns time-left">
+                10:30am-2pm
+            </div>
+        </div>
+
+    </div>
+    
+    <!--<h3>Tuesday</h3>
 		<p>38th &amp; Locust 7:30am-2pm</p>
 
 		<h3>Wednesday</h3>
@@ -75,6 +169,7 @@
 		<h3>Sunday</h3>
 		<p> 41st &amp; Locust 10:30am-2pm </p> 
 	</div>-->
-	
+
 </body>
+
 </html>
