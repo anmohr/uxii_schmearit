@@ -225,8 +225,12 @@ h3{
 }
 
 #reward-button button{
-    padding: 15px 18px 15px 20px;
-    margin:-5px -5px -5px -5px;
-    font-size: 1.8em;
+    padding: 15px 20px 15px 25px;
+    margin:-5px -10px -5px -10px;
+    font-size: 2em;
     color: #fff;
+    font-family: 'josefin';
+    font-weight: bold;
 }
+
+
