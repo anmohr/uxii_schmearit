@@ -45,13 +45,14 @@ body{
     font-size: 18px;
 }
 
-#title {
+#home {
     float:left;
     margin: auto;
 }
 
 .top-bar{
     background-color: #ff5d2b;
+    po
 }
 
 .top-bar h1{
@@ -250,4 +251,10 @@ h3{
     font-size: 18px;
     padding: 0.85em 1em;
     color: white;
+}
+
+.phone {
+    position: fixed;
+    top: 8px;
+    right: 20px;
 }
