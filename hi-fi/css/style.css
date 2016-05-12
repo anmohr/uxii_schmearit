@@ -47,12 +47,12 @@ body{
 
 #home {
     float:left;
-    margin: auto;
+    border: 1px solid black;
 }
 
 .top-bar{
     background-color: #ff5d2b;
-    po
+    position: relative;
 }
 
 .top-bar h1{
@@ -253,8 +253,12 @@ h3{
     color: white;
 }
 
-.phone {
-    position: fixed;
-    top: 8px;
-    right: 20px;
+
+
+
+
+#phone {
+    position: relative;
+    float:right;
+    border: 1px solid black;
 }
