@@ -232,9 +232,14 @@ h3 {
     color: white;
 }
 
+<<<<<<< HEAD
 #phone {
     position: relative;
     float: right;
+}
+
+.menu_price{
+    vertical-align: center;
 }
 
 
