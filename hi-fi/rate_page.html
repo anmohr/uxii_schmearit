@@ -11,6 +11,7 @@
   </head>
 <body>
 	<h1>Rate Me</h1>
+<!--
 	<div class="callout">
         <img src="images/star.svg" alt="star" width="30px" height="30px">  
         <img src="images/star.svg" alt="star" width="30px" height="30px"> 
@@ -18,8 +19,28 @@
         <img src="images/star.svg" alt="star" width="30px" height="30px">
         <img src="images/star.svg" alt="star" width="30px" height="30px">
 	</div>
+-->
+<fieldset class="score callout">
+  <legend>Score:</legend>
+  
+  <input type="radio" id="score-5" name="score" value="5"/>
+  <label title="5 stars" for="score-5">5 stars</label>
+  
+  <input type="radio" id="score-4" name="score" value="4"/>
+  <label title="4 stars" for="score-4">4 stars</label>
+  
+  <input type="radio" id="score-3" name="score" value="3"/>
+  <label title="3 stars" for="score-3">3 stars</label>
+  
+  <input type="radio" id="score-2" name="score" value="2"/>
+  <label title="2 stars" for="score-2">2 stars</label>
+  
+  <input type="radio" id="score-1" name="score" value="1"/>
+  <label title="1 stars" for="score-1">1 stars</label>
+  
+</fieldset>
 
-	<div class="row callout">
+	<div class="row">
         <div class="button-group radius">
             <a class="button">Sweet</a>
             <a class="button">Savory</a>
@@ -28,7 +49,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="center">
     	<a class="sub_button" href="thanks.html">Submit</a>
     </div>
 
