@@ -23,7 +23,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
-            alert("shake");
+            alert('Shake!');
         }
 
         // Update new position
@@ -31,6 +31,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         y2 = y1;
         z2 = z1;
     }, 150);
+}
 }
 //(function(global, factory) {
 //    if (typeof define === 'function' && define.amd) {
