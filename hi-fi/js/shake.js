@@ -23,21 +23,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
-         jQuery(document).ready(function () {
-    window.Lightbox = new jQuery().visualLightbox({
-        autoPlay: true
-        , borderSize: 7
-        , classNames: 'vlightbox1'
-        , closeLocation: 'top'
-        , descSliding: true
-        , enableRightClick: false
-        , enableSlideshow: true
-        , prefix: 'vlb1'
-        , resizeSpeed: 7
-        , slideTime: 4
-        , startZoom: true
-    })
-});
+            document.getElementById("vlightbox1");
         }
 
         // Update new position
