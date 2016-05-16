@@ -23,7 +23,14 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
-            window.location.href=Lightbox;
+            function showLightBox() 
+  
+    if (started) return;
+    started = setTimeout(function(){
+        Lightbox.start(document.getElementsByClassName('vlightbox1'));
+        started;
+    },500);
+  
         }
 
         // Update new position
