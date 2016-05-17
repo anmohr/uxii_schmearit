@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
 </head>
     
 <body>
@@ -17,24 +18,38 @@
           <h1>Popular Bagels</h1>
         </div>
     </div>
-
-    <div class="large-12 columns callout">
-        <div class="seg_control">
-            <ul class="button-group radius">
-                <li><a href="#" class="small-2 columns button">All</a></li>
-                <li><a href="#" class="small-2 columns button">Sweet</a></li>
-                <li><a href="#" class="small-2 columns button">Savory</a></li>
-                <li><a href="#" class="small-3 columns button">Unusual</a></li>
-                <li><a href="#" class="small-3 columns button">My Faves</a></li>
+    
+    <div class="tabs_wrapper">
+        <div id="tabs">
+            <ul class="button-group">
+                <li class="active button"><a href="#tab1" rel="tab1">All</a></li>
+                <li class="button"><a href="#tab2" rel="tab2">Sweet</a></li>
+                <li class="button"><a href="#tab3" rel="tab3">Savory</a></li>
+                <li class="button"><a href="#tab4" rel="tab4">Unusual</a></li>
+                <li class="button"><a href="#tab5" rel="tab5"><img src="images/favorite.svg" height="18" width="18"></a></li>
             </ul>
-        </div>   
+        </div>
 
-        <!-- <div class="row">
-            <div class="button-group center">
-                <a class="button">All Time</a>
-                <a class="button">Recent</a> 
+        <div id="tabs_content_container">
+            <div id="tab1" class="tab_content" style="display: block;">
+              <p>Tab content 1</p>
             </div>
-        </div> -->
+            <div id="tab2" class="tab_content">
+                <p>Tab content 2</p>
+            </div>
+            <div id="tab3" class="tab_content">
+                <p>Tab content 3</p>
+            </div>
+            <div id="tab4" class="tab_content">
+                <p>Tab content 4</p>
+            </div>
+            <div id="tab5" class="tab_content">
+                <p>Tab content 5</p>
+            </div>
+        </div>
+    </div>
+    
+    
 
             <div class="row signature-bagel">
                 <div class="small-2 columns reg-text position">1</div>
@@ -124,7 +139,7 @@
             </div>
             <hr>
 
-             <div class="row signature-bagel">
+            <div class="row signature-bagel">
                 <div class="small-2 columns reg-text position">4</div>
                 <div class="small-6 columns reg-text ingredient">Plain (v)<br>
                     Vegetable (g)<br>
@@ -150,6 +165,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+    
+    <!-- JAVASCRIPT-->
+	<script type="text/javascript" src="js/tabs.js"></script>
+    
 </body>
 </html>

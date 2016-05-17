@@ -330,4 +330,61 @@ input {
 }
 
 
+#tabs_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+}
+#tabs_container {
+    width: 100%;
+    
+}
+#tabs {
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin: 0 0 0 0px;
+}
+#tabs li {
+    display: inline;
+}
+#tabs li a {
+    padding: 4px 6px;
+    text-decoration: none;
+    color:#fefefe;
+    font-family: 'josefin', sans-serif; 
+    background-color: none;
+    font-size:18px;
+  
+}
+#tabs li a:hover {
+    background-color: none;
+    padding: 4px 6px;
+}
+#tabs li.active a {
+    background-color: #2199e8;
+    /*border-bottom: none;*/
+}
+#tabs li.active a:hover {
+    background-color: none;
+    /*border-bottom: none;*/
+}
+ 
+#tabs li a.icon_accept {
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+#tabs li a.icon_accept:hover {
+}
+ 
+#tabs_content_container {
+    border-top: 1px solid #ccc;
+    width: 600px;
+}
+.tab_content {
+    display: none;
+}
+
+/* TAB CSS END */
+
+
 
