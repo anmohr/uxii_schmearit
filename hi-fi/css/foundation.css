@@ -542,7 +542,7 @@ button {
   margin-left: 16.66667%; }
 
 .small-4 {
-  width: 33.33333%; }
+  width: 33.33333%;}
 
 .small-push-4 {
   position: relative;
@@ -570,7 +570,8 @@ button {
   margin-left: 33.33333%; }
 
 .small-6 {
-  width: 50%; }
+  width: 50%;}
+
 
 .small-push-6 {
   position: relative;
@@ -598,7 +599,8 @@ button {
   margin-left: 50%; }
 
 .small-8 {
-  width: 66.66667%; }
+  width: 66.66667%;}
+
 
 .small-push-8 {
   position: relative;
@@ -1480,8 +1482,8 @@ kbd {
   vertical-align: middle;
   border: 1px solid transparent;
   border-radius: 0;
-  padding: 0.5em .5em;
-  margin: 0 0 .5rem 0;
+  padding: .25em;
+  margin: 0 0 .25rem 0;
   font-size: 0.9rem;
   background-color: #2199e8;
   color: #fefefe; }

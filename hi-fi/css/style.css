@@ -125,7 +125,7 @@ h3 {
 }
 
 .reg-text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -342,7 +342,8 @@ input {
 #tabs {
     list-style: none;
     padding: 5px 0 4px 0;
-    margin: 0 0 0 0px;
+    margin: 10px;
+    width: 100%;
 }
 #tabs li {
     display: inline;
@@ -377,8 +378,8 @@ input {
 }
  
 #tabs_content_container {
-    border-top: 1px solid #ccc;
-    width: 600px;
+    width: 100%;
+    margin: 20px 0px;
 }
 .tab_content {
     display: none;
@@ -386,5 +387,16 @@ input {
 
 /* TAB CSS END */
 
+heart{
+  cursor: pointer;
+  display: block;
+  height: 80px;
+  width: 80px;
+  
+  background-size: auto 100%;
+  background-position: 0 0;
+  background-image: url(https://abs.twimg.com/a/1446304541/img/t1/web_heart_animation.png);
+    border: 1px solid black;
+}
 
 
