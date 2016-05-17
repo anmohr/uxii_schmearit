@@ -1,8 +1,8 @@
 if (typeof window.DeviceMotionEvent != 'undefined') {
     // Shake sensitivity (a lower number is more)
     var detect = {
-        sensitivity = 15,
-        timeout = 1500;
+        sensitivity: 15,
+        timeout: 1500;
     };
         
 
