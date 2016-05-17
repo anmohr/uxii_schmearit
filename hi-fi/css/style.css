@@ -212,6 +212,9 @@ h3 {
     width: 170px;
     height: 50px;
     margin: 0 auto;
+    font-family: 'josefin';
+    font-size: 30px;
+    text-align: center;
 }
 
 #reward-button button {
@@ -398,5 +401,7 @@ heart{
   background-image: url(https://abs.twimg.com/a/1446304541/img/t1/web_heart_animation.png);
     border: 1px solid black;
 }
+
+
 
 
