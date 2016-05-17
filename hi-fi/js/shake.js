@@ -22,7 +22,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         if (change > sensitivity) {
             alert("Shake Detected");
             //window.location = "recents.html";
-            $('#myModal').reveal('show');
+            $('#myModal').modal('show');
         }
 
         // Update new position
