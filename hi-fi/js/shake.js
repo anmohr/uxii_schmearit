@@ -12,6 +12,10 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         z1 = e.accelerationIncludingGravity.z;
     }, false);
 
+        
+function newWindow() {
+     allInfo= open("http://www.w3schools.com", "displayWindow");}
+    
     // Periodically check the position and fire
     // if the change is greater than the sensitivity
     setInterval(function () {
@@ -19,7 +23,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
 
         if (change > sensitivity) {
             //alert('Shake!');
-            window.open("http://www.w3schools.com");
+            allInfo.alert("blah blah");
         }
 
         // Update new position
