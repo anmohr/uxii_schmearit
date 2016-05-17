@@ -36,6 +36,7 @@ var myShakeEvent = new Shake({
 });
 
 myShakeEvent.start();
+alert('homepage.js');
 
 window.addEventListener('shake', shakeEventDidOccur, false);
 
@@ -45,3 +46,7 @@ function shakeEventDidOccur () {
     //put your own code here etc.
  $('#myModal').foundation('open');
 }
+
+$('.close-button').click(function(){
+    $('.close-button').foundation('close');
+})
