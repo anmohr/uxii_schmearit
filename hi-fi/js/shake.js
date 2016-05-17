@@ -1,8 +1,8 @@
 if (typeof window.DeviceMotionEvent != 'undefined') {
     // Shake sensitivity (a lower number is more)
     var sensitivity = 20,
-        checkDelay = 100,
-        callbackDelay = 2500;
+        //checkDelay = 100,
+        //callbackDelay = 2500;
 
     // Position variables
     var x1 = 0, y1 = 0, z1 = 0, x2 = 0, y2 = 0, z2 = 0;
@@ -25,7 +25,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         if (change > sensitivity) {
             //alert("Shake Detected");
             
-            setTimeout(setInterval, callbackDelay);
+            //setTimeout(setInterval, callbackDelay);
             
             if(open){
                 $('#myModal').foundation('close');
