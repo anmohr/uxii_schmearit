@@ -22,7 +22,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         if (change > sensitivity) {
             //alert('Shake!');
             alert("Shake Detected");
-            window.location = "http://www.google.com/";
+            window.location = "recents.html";
         }
 
         // Update new position
