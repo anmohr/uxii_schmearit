@@ -11,10 +11,21 @@
 }
 
 
-h1 {
+
     
+h1{
+    font-size: 28px;
+     color: #7FDBFA;
+    font-weight: bold;
     text-align: center;
-    color: #7FDBFA;
+    font-family: 'economicaregular';
+}
+
+@font-face {
+    font-family: 'josefin';
+    src: url('../font/JosefinSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -25,7 +36,7 @@ body {
 
 #submitbutton{
     background-color: #FF4D00;
-    height: 44px;
+    height: 40px;
     width: 100px;
     margin-top: 20px;
 
@@ -52,7 +63,6 @@ color: white;
 
 #submitbutton2{
     background-color: #FF4D00;
-    height: 44px;
     width: 100px;
     margin-top: 20px;
     margin-left: 10px;
@@ -61,6 +71,6 @@ color: white;
 
 #logo{
 height: 20%;
-margin-left: 23%;
+margin-left: 20%;
 }
 

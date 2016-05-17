@@ -1,11 +1,7 @@
 @font-face {
     font-family: 'economicaregular';
     src: url('../font/economica-regular-otf-webfont.eot');
-    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/economica-regular-otf-webfont.woff2') format('woff2'),
-         url('../font/economica-regular-otf-webfont.woff') format('woff'),
-         url('../font/economica-regular-otf-webfont.ttf') format('truetype'),
-         url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
+    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'), url('../font/economica-regular-otf-webfont.woff2') format('woff2'), url('../font/economica-regular-otf-webfont.woff') format('woff'), url('../font/economica-regular-otf-webfont.ttf') format('truetype'), url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,37 +20,42 @@
     font-style: bold;
 }
 
-a{
+a {
     font-size: 30px;
     color: #2e4c57;
 }
 
-body{
-	background-color: #fff7f2;
+body {
+    background-color: #fff7f2;
     font-size: 20px;
 }
 
-.button{
-	background-color: #91d8f1;
+.button {
+    background-color: #91d8f1;
     border-right: 1px solid #fefefe;
     vertical-align: middle;
     text-align: center;
 }
 
-.button-group .button{
+.button-group .button {
     font-size: 18px;
 }
 
 #home {
+<<<<<<< HEAD
     float:left;
+=======
+    float: left;
+    margin-top: -3px;
+>>>>>>> 1e37cf293cabb9d4923bffe34bf40fa040896950
 }
 
-.top-bar{
+.top-bar {
     background-color: #ff5d2b;
     position: relative;
 }
 
-.top-bar h1{
+.top-bar h1 {
     font-size: 32px;
     color: #fff;
 }
@@ -70,32 +71,31 @@ body{
     font-family: 'economicaregular';
 }
 
-
-h1{
+h1 {
     font-size: 28px;
-    color:#2e4c57;
+    color: #2e4c57;
     font-weight: bold;
     text-align: center;
+    margin: 0 auto;
     font-family: 'economicaregular';
 }
 
-h2{
+h2 {
     font-size: 24px;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: bold;
 }
 
-.color{
+.color {
     background-color: #2e4c57;
 }
 
 .overlay {
     position: relative;
-
 }
 
 #vlightbox1 {
@@ -104,26 +104,29 @@ h3{
     height: 140px;
 }
 
-
 .thumbnail {
-    background-color: #fff;   
-    width: 250px; 
-    height:auto;
+    background-color: #fff;
+    width: 250px;
+    height: auto;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
-.right-button{
+.right-button {
     float: right;
     position: relative;
     font-size: 20px;
-    margin-top: -20px;   
+    margin-top: -20px;
 }
 
-    
+.right-button2 {
+    float: right;
+    position: relative;
+    font-size: 20px;
+    margin-top: -46px;
+}
 
 .reg-text {
     font-size: 20px;
@@ -134,17 +137,14 @@ h3{
     border: 1px solid black;
 }
 
-
-
 .accordion-item {
     background-color: white;
 }
 
-
-
 .white {
     background-color: white;
 }
+
 .button-group {
     float: none;
     margin: 0 auto;
@@ -154,11 +154,9 @@ h3{
     margin: 0 auto;
 }
 
-
 .position {
     text-align: center;
 }
-
 
 .main-category {
     margin-top: 10px;
@@ -168,7 +166,6 @@ h3{
     max-width: 88%;
     margin: 0 auto;
     text-align: justify;
-    
 }
 
 .bottom {
@@ -177,13 +174,11 @@ h3{
     border: 1px solid black;
 }
 
-
-
-.rateMe-button{
+.rateMe-button {
     background-color: #90d8f1;
     padding: 0.1em 0.3em;
-    color: #ffffff;}
-
+    color: #ffffff;
+}
 
 .star {
     width: 16px;
@@ -195,69 +190,148 @@ h3{
     width: 18px;
 }
 
-
-
 #bagel {
     width: 35%;
     float: left;
-
 }
 
-#bagelpic{
+#bagelpic {
     margin-left: 30px;
     margin-top: 10px;
 }
 
-
-.words{
+.words {
     width: 65%;
     float: right;
     margin-top: 20px;
-    margin-right: 
+    margin-right:
 }
 
-.words h1{
+.words h1 {
     color: #fff;
 }
 
 #reward-button {
-    background-color:#ff5d2b;
+    background-color: #ff5d2b;
     width: 170px;
     height: 50px;
     margin: 0 auto;
-    
 }
 
-#reward-button button{
+#reward-button button {
     padding: 15px 20px 15px 25px;
-    margin:-5px -10px -5px -10px;
+    margin: -5px -10px -5px -10px;
     font-size: 2em;
     color: #fff;
     font-family: 'josefin';
     font-weight: bold;
 }
 
-
-
-
-
-
-
 .sub_button {
-	background-color: #ff5d2b;
+    background-color: #ff5d2b;
     border-right: 1px solid #fefefe;
     text-align: center;
     font-size: 18px;
-    padding: 0.85em 1em;
+    padding: 0.6em 1.2em;
     color: white;
 }
 
-
-
-
-
 #phone {
     position: relative;
-    float:right;
-    border: 1px solid black;
+    float: right;
 }
+
+.menu_price{
+    vertical-align: center;
+}
+
+
+/*rating page*/
+
+.rate {
+    width: 35%;
+    float: right;
+    margin-top: 22px;
+}
+
+.rate1 {
+    width: 32%;
+    float: right;
+    margin-top: 30px;
+}
+
+.rateText {
+    padding-left: 28px;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*star rating*/
+
+input {
+    position: absolute;
+    top: -2em;
+    clip: rect(0, 0, 0, 0);
+}
+
+.score {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    border: 0;
+    font-size: 0;
+}
+
+.score legend {
+    overflow: hidden;
+    height: 0;
+}
+
+.score label {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 32px;
+    line-height: 2rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 1.2em;
+    height: 1em;
+    overflow: hidden;
+    text-indent: 100%;
+}
+
+.score label:before {
+    content: "☆";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: 0;
+    line-height: 1em;
+    color: #2e4c57;
+}
+
+.score label:hover:before,
+.score label:hover ~ label:before,
+.score input:checked ~ label:before {
+    content: "★";
+    color: #2e4c57;
+}
+
+.score label:active {
+    position: relative;
+    top: 1px;
+}
+
+.button-group {
+    margin-left: 28px;
+}
+
+
+
