@@ -1,9 +1,16 @@
 if (typeof window.DeviceMotionEvent != 'undefined') {
     // Shake sensitivity (a lower number is more)
-    var sensitivity = 15;
+    var sensitivity = 15, 
+        checkDelay = 150, 
+        callbackDelay = 2500;
 
     // Position variables
-    var x1 = 0, y1 = 0, z1 = 0, x2 = 0, y2 = 0, z2 = 0;
+    var x1 = 0, 
+        y1 = 0, 
+        z1 = 0, 
+        x2 = 0, 
+        y2 = 0, 
+        z2 = 0;
 
     // Listen to motion events and update the position
     window.addEventListener('devicemotion', function (e) {
@@ -21,6 +28,15 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
+            callb.call(window);
+            
+            setTimeout(checkDeviceMotion, callbackDelay); }
+            
+            else { 
+                setTimeout(checkDeviceMotion,checkDelay);
+                 }
+        
+        
             //alert("Shake Detected");
             if(open){
                 $('#myModal').foundation('close');
