@@ -21,7 +21,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
 
         if (change > sensitivity) {
             alert("Shake Detected");
-            window.location = "recents.html";
+            //window.location = "recents.html";
             $('#myModal').reveal('show');
         }
 
