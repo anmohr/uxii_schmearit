@@ -80,15 +80,24 @@
         <div class="words">
            <h1>2 more bagels to go!</h1>
             <div id="reward-button">
-            <a class="vlightbox1" href="lightbox_files/vlb_images1/qrcode.jpg" height="200" width="200" title="Shake to Exit">
+                <a href="#" data-open="myModal">Scan for Points</a>
+
+                <div id="myModal" class="reveal" data-reveal >
+                      <img src="images/qrcode.png" alt="qrcode">
+                      <h2 id="modalTitle">Awesome. I have it.</h2>
+                      <p class="lead">Your couch.  It is mine.</p>
+                      <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+                      <a class="close-button" data-close>&#215;</a>
+                </div>
+            <!--<a class="vlightbox1" href="lightbox_files/vlb_images1/qrcode.jpg" height="200" width="200" title="Shake to Exit">
             <button type="Scan">Scan for Points</button>
-            </a>
+            </a>-->
             </div>
         </div>
     </div>
 	
-  
-    <a href="lightbox_files/vlb_files1/close.png"img src="images/shake.png"></a>
+    
+    <a href="lightbox_files/vlb_files1/close.png" img src="images/shake.png"></a>
     
     <div class="main-category">
         <div class="menu-button">			
@@ -114,12 +123,21 @@
     
     
     <!-- JAVASCRIPT-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.min.js"></script> 
+    <script src="js/vendor/what-input.js"></script>
 	<script src="js/lib/jquery-2.2.3.min.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
-    <script src="lightbox_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>
+    <!--<script src="lightbox_files/vlb_engine/vlbdata1.js" type="text/javascript"></script>-->
     <script src="js/homepage.js" type="text/javascript"></script>
-    <script src="js/shake.js" type="text/javascript"></script>  
+    <script src="js/shake.js" type="text/javascript"></script>
+    
+
+
+    <script>
+        $(document).foundation();
+    </script>
 
 </body>
 </html>
