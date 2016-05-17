@@ -19,11 +19,12 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
     setInterval(function () {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
+        
         if (change > sensitivity) {
             //alert("Shake Detected");
             //window.location = "recents.html";
             //$('#myModal').modal('show');
-            $('#myModal').style.display = "block";
+            $('#myModal').foundation('open');
         }
 
         // Update new position
