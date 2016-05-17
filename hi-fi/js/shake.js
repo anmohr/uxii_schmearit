@@ -1,6 +1,6 @@
 if (typeof window.DeviceMotionEvent != 'undefined') {
     // Shake sensitivity (a lower number is more)
-    var sensitivity = 20,
+    var sensitivity = 20;
         //checkDelay = 100,
         //callbackDelay = 2500;
 
