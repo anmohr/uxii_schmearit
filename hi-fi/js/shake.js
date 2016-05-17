@@ -25,7 +25,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         if (change > sensitivity) {
             //alert("Shake Detected");
             
-            setTimeout(checkDeviceMotion, callbackDelay);
+            setTimeout(setInterval, callbackDelay);
             
             if(open){
                 $('#myModal').foundation('close');
