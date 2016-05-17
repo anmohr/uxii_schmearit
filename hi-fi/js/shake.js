@@ -23,9 +23,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
             //alert("Shake Detected");
             //window.location = "recents.html";
             //$('#myModal').modal('show');
-            btn.onclick = function() {
             $('#myModal').style.display = "block";
-}
         }
 
         // Update new position
