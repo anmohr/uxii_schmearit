@@ -24,7 +24,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
             //window.location = "recents.html";
             //$('#myModal').modal('show');
             btn.onclick = function() {
-    modal.style.display = "block";
+            $('#myModal').style.display = "block";
 }
         }
 
