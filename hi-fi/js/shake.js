@@ -18,7 +18,8 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
-            alert('Shake!');
+            //alert('Shake!');
+            window.open("http://www.w3schools.com");
         }
 
         // Update new position
