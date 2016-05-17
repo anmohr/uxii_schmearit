@@ -28,15 +28,6 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
         var change = Math.abs(x1-x2+y1-y2+z1-z2);
 
         if (change > sensitivity) {
-            callb.call(window);
-            
-            setTimeout(checkDeviceMotion, callbackDelay); }
-            
-            else { 
-                setTimeout(checkDeviceMotion,checkDelay);
-                 }
-        
-        
             //alert("Shake Detected");
             if(open){
                 $('#myModal').foundation('close');
@@ -44,6 +35,14 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
                 $('#myModal').foundation('open');
             }
             open = !open;
+            
+            callb.call(window);
+            
+            setTimeout(checkDeviceMotion, callbackDelay); }
+            
+            else { 
+                setTimeout(checkDeviceMotion,checkDelay);
+                 }
         }
 
         // Update new position
