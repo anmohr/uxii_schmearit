@@ -42,12 +42,8 @@ body {
 }
 
 #home {
-<<<<<<< HEAD
-    float:left;
-=======
     float: left;
     margin-top: -3px;
->>>>>>> 1e37cf293cabb9d4923bffe34bf40fa040896950
 }
 
 .top-bar {
