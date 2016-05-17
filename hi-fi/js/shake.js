@@ -14,6 +14,7 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
 
         
     
+    var open = false;
     // Periodically check the position and fire
     // if the change is greater than the sensitivity
     setInterval(function () {
@@ -24,7 +25,12 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
             //alert("Shake Detected");
             //window.location = "recents.html";
             //$('#myModal').modal('show');
-            $('#myModal').foundation('open');
+            if(open){
+                $('#myModal').foundation('close');
+            }else{
+                $('#myModal').foundation('open');
+            }
+            open = !open;
         }
 
         // Update new position
