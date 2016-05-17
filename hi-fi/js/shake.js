@@ -13,8 +13,6 @@ if (typeof window.DeviceMotionEvent != 'undefined') {
     }, false);
 
         
-function newWindow() {
-     allInfo= open("http://www.w3schools.com", "displayWindow");}
     
     // Periodically check the position and fire
     // if the change is greater than the sensitivity
@@ -23,7 +21,8 @@ function newWindow() {
 
         if (change > sensitivity) {
             //alert('Shake!');
-            allInfo.alert("blah blah");
+            alert("Shake Detected");
+            window.location = "http://www.google.com/";
         }
 
         // Update new position
