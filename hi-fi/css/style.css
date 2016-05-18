@@ -39,6 +39,7 @@ body {
 
 .button-group .button {
     font-size: 18px;
+    float: none;
 }
 
 #home {
@@ -153,6 +154,16 @@ h3 {
 .button-group {
     float: none;
     margin: 0 auto;
+    width: 100%;
+}
+
+
+ul.button-group li {
+    float: none;
+    display: inline-block;
+}
+ul.button-group {
+        text-align: center;
 }
 
 .seg_control {
@@ -342,9 +353,6 @@ input {
     top: 1px;
 }
 
-
-
-
 #tabs_wrapper {
     width: 100%;
     margin: 0 auto;
@@ -360,9 +368,7 @@ input {
     margin-top: 20px;
     width: 100%;
 }
-#tabs li {
-    display: inline;
-}
+
 #tabs li a {
     padding: 4px 6px;
     text-decoration: none;
