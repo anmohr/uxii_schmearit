@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
     <!-- Normalize/reset -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -23,9 +24,27 @@
 			<div class="home-btn">
                 <a id="home" href="index.html"> <img src="images/web.png" alt="home"></a>
             </div>
+
 		<h1>Menu</h1>
 		</div>
 	</div>
+<!--
+
+            <h1>Menu</h1>
+        </div>
+    </div>
+<div class="reward-button2">
+        <a href="#" data-open="myModal" class="reg-text">Scan for Points</a>
+
+        <div id="myModal" class="reveal" data-reveal>
+            <img src="images/qrcode.png" alt="qrcode">
+            <h2 id="modalTitle"></h2>
+            <p class="lead">You can also shake your phone in the future to pull up the QR code to gain and use rewards!</p>
+            <a class="close-button" data-close>&#215;</a>
+        </div>
+    </div>
+
+-->
 
     <div class="content">
         <div class="large-12 columns callout">
@@ -320,14 +339,31 @@
                 </div>
             </div>
 
-            <!-- JAVASCRIPT-->
+<!--
+             JAVASCRIPT
             <script src="js/vendor/jquery.js"></script>
             <script src="js/vendor/what-input.js"></script>
             <script src="js/vendor/foundation.js"></script>
             <script src="js/app.js"></script>
+-->
 
         </div>
     </div>
+    
+     <!-- JAVASCRIPT-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.min.js"></script> 
+    <script src="js/vendor/what-input.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
+    <script src="js/shake.js" type="text/javascript"></script>
+    <script src="js/homepage.js" type="text/javascript"></script>
+    
+
+
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 
 </html>

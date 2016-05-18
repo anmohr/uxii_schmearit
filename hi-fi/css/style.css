@@ -46,6 +46,15 @@ body {
     margin-top: -3px;
 }
 
+
+.top-bar1 {
+    background-color: #ff5d2b;
+    position: relative;
+   -webkit-box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
+box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
+}
+
 .top-bar {
     background-color: #ff5d2b;
     position: relative;
@@ -212,18 +221,23 @@ h3 {
     width: 170px;
     height: 50px;
     margin: 0 auto;
-    font-family: 'josefin';
-    font-size: 30px;
     text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.reward-button2{
+    display: none;
 }
 
 #reward-button button {
-    padding: 15px 20px 15px 25px;
-    margin: -5px -10px -5px -10px;
-    font-size: 2em;
+    padding: 15px 15px 10px 15px;
+    font-size: 22px;
     color: #fff;
     font-family: 'josefin';
     font-weight: bold;
+    vertical-align: middle;
 }
 
 .sub_button {
@@ -345,7 +359,7 @@ input {
 #tabs {
     list-style: none;
     padding: 5px 0 4px 0;
-    margin: 10px;
+    margin-top: 20px;
     width: 100%;
 }
 #tabs li {
@@ -405,3 +419,11 @@ heart{
 
 
 
+
+#past_bagel_wrapper {
+    margin-top: 20px;
+}
+
+.top-bar {
+    
+}

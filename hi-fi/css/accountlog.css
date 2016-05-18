@@ -34,11 +34,12 @@ body {
     font-size: 18px;
 }
 
-#submitbutton{
+#loginbutton{
     background-color: #FF4D00;
     height: 40px;
     width: 100px;
     margin-top: 20px;
+    padding-top: 12px;
 
 }
 
