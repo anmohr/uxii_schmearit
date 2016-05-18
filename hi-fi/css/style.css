@@ -217,6 +217,10 @@ h3 {
     text-align: center;
 }
 
+.reward-button2{
+    display: none;
+}
+
 #reward-button button {
     padding: 15px 20px 15px 25px;
     margin: -5px -10px -5px -10px;
