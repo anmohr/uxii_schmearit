@@ -36,7 +36,6 @@ var myShakeEvent = new Shake({
 });
 
 myShakeEvent.start();
-alert('homepage.js');
 
 window.addEventListener('shake', shakeEventDidOccur, false);
 
