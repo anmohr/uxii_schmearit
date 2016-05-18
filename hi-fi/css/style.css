@@ -342,9 +342,7 @@ input {
     top: 1px;
 }
 
-.button-group {
-    margin-left: 28px;
-}
+
 
 
 #tabs_wrapper {
@@ -371,7 +369,7 @@ input {
     color:#fefefe;
     font-family: 'josefin', sans-serif; 
     background-color: none;
-    font-size:18px;
+    font-size:20px;
   
 }
 #tabs li a:hover {
