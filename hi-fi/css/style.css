@@ -404,19 +404,58 @@ input {
 
 /* TAB CSS END */
 
-heart{
+
+/* HEART CSS STARTS */
+.Buttons {
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: 20px;
+  color: #585858;
   cursor: pointer;
-  display: block;
-  height: 80px;
-  width: 80px;
-  
-  background-size: auto 100%;
-  background-position: 0 0;
-  background-image: url(https://abs.twimg.com/a/1446304541/img/t1/web_heart_animation.png);
-    border: 1px solid black;
+  position: relative;
+  transition-property: color, transform;
+  transition-duration: 150ms;
+  z-index: 1;
+    left: 12px;
+    top: -6px;
 }
 
+.Buttons:hover,
+.Buttons:focus {
+  color: #DE254B;
+}
 
+.Buttons.is-toggled {
+  color: #DE254B;
+}
+
+.Buttons-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Buttons-icon--toggled {
+  opacity: 0;
+  color: #DE254B;
+}
+
+.Buttons.is-toggled .Buttons-icon--toggled {
+  opacity: 1;
+    color: #DE254B;
+}
+
+.Buttons:focus {
+  outline: none;
+  transform: scale(1.0);
+}
+
+.Buttons::after {
+  transform: rotate(45deg);
+}
+
+/* HEART CSS ENDS */
 
 
 

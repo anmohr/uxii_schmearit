@@ -13,3 +13,6 @@ localStorage.setItem("typeDescriptions", JSON.stringify(movies));
 // retrieving the data
 var retrievedData = localStorage.getItem("starRating");
 var retrievedData = localStorage.getItem("typedescriptions");
+
+
+
