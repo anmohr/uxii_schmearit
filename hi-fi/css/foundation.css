@@ -1290,7 +1290,7 @@ a {
     border: 0; }
 
 hr {
-  max-width: 75rem;
+  width: 90%;
   height: 0;
   border-right: 0;
   border-top: 0;
@@ -1484,9 +1484,9 @@ kbd {
   vertical-align: middle;
   border: 1px solid transparent;
   border-radius: 0;
-  padding: .25em;
-  margin: 0 0 .25rem 0;
-  font-size: 0.9rem;
+  padding: .5em;
+  margin: 0 0 .5rem 0;
+  font-size: 18px;
   background-color: #2199e8;
   color: #fefefe; 
   outline: none;}
