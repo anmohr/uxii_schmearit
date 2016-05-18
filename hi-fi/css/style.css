@@ -40,6 +40,7 @@ body {
 .button-group .button {
     font-size: 18px;
     float: none;
+    padding: 8px 4px;
 }
 
 #home {
@@ -467,6 +468,4 @@ input {
     margin-top: 20px;
 }
 
-.top-bar {
-    
-}
+
