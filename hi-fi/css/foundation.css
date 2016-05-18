@@ -1488,7 +1488,8 @@ kbd {
   margin: 0 0 .25rem 0;
   font-size: 0.9rem;
   background-color: #2199e8;
-  color: #fefefe; }
+  color: #fefefe; 
+  outline: none;}
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
