@@ -3,14 +3,14 @@
 <html lang="en" manifest="manifest.appcache">
 
 <head>
-	<meta charset="UTF-8" name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
+    <meta charset="UTF-8" name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0" />
     <title>Schmear It</title>
 
     <!-- iOS Settings -->
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    
-	<!-- Normalize/reset -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- Normalize/reset -->
     <link rel="stylesheet" href="css/normalize.css">
 
     <!-- Foundation -->
@@ -18,102 +18,107 @@
 
     <!-- Custom -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- iPhone ICONS -->
-	<link href="a/imgs/icon-120x120.png" rel="apple-touch-icon">
-	<link href="a/imgs/icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-	<link href="a/imgs/icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-	<link href="a/imgs/icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-	<link href="a/imgs/icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="a/imgs/icon-120x120.png" rel="apple-touch-icon">
+    <link href="a/imgs/icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+    <link href="a/imgs/icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="a/imgs/icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="a/imgs/icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
 
-	<!-- Android ICONS -->
-	<link href="a/imgs/icon-192x192.png" rel="icon" sizes="192x192">
-	<link href="a/imgs/icon-128x128.png" rel="icon" sizes="128x128" >
+    <!-- Android ICONS -->
+    <link href="a/imgs/icon-192x192.png" rel="icon" sizes="192x192">
+    <link href="a/imgs/icon-128x128.png" rel="icon" sizes="128x128">
 
-	<!-- iPhone SPLASHSCREEN -->
-	<link
-		rel="apple-touch-startup-image"
-		href="a/img/startup-320x460.png"
-		media="(device-width: 320px)" >
+    <!-- iPhone SPLASHSCREEN -->
+    <link rel="apple-touch-startup-image" href="a/img/startup-320x460.png" media="(device-width: 320px)">
 
-	<!-- iPhone SPLASHSCREEN (Retina) -->
-	<link
-		rel="apple-touch-startup-image"
-		href="a/img/startup-640x920.png"
-		media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" >
+    <!-- iPhone SPLASHSCREEN (Retina) -->
+    <link rel="apple-touch-startup-image" href="a/img/startup-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
 
-	<!-- iPhone SPLASHSCREEN (Retina 5) -->
-	<link
-		rel="apple-touch-startup-image"
-		href="a/img/startup-640x1096.png"
-		media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" >
+    <!-- iPhone SPLASHSCREEN (Retina 5) -->
+    <link rel="apple-touch-startup-image" href="a/img/startup-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
 </head>
-    
-    
+
+
 <body>
     <div class="top-bar1 top-bar">
-		<div class="large-12 columns">
-			<img src="images/top_logo.png" alt="schmear it">
-		</div>
-		<div>
-		    <a class="right-button" href="login.html">Log Out</a>
-		</div>
-	</div>
-    
+        <div class="large-12 columns">
+            <img id="logo_top" src="images/top_logo.png" alt="schmear it">
+        </div>
+        <div>
+            <a class="right-button" href="login.html">Log Out</a>
+        </div>
+    </div>
+
     <div id="vlightbox1">
-	   
+
         <div id="bagel">
             <img id="bagelpic" src="images/BAGEL.png" alt="bagel">
-        </div> 
+        </div>
         <div id="counter"></div>
         <div class="words">
-           <h1>2 more bagels to go!</h1>
-            <div id="reward-button">
-                <a href="#" data-open="myModal"><button>Scan for Points</button></a>
-                
 
-                <div id="myModal" class="reveal" data-reveal >
-                      <img src="images/qrcode.png" alt="qrcode">
-                      <h2 id="modalTitle"></h2>
-                      <p class="lead">You can also shake your phone in the future to pull up the QR code to gain and use rewards!</p>
-                      <a class="close-button" data-close>&#215;</a>
+            <div id="result"></div>
+
+            <div id="reward-button">
+                <a href="#" data-open="myModal">
+                    <button id="reward-button button" onclick="clickCounter()" type="button">Click me!</button>
+                </a>
+
+
+                <div id="myModal" class="reveal" data-reveal>
+                    <img src="images/qrcode.png" alt="qrcode">
+                    <h2 id="modalTitle"></h2>
+                    <p class="lead">You can also shake your phone in the future to pull up the QR code to gain and use rewards!</p>
+                    <a class="close-button" data-close>&#215;</a>
                 </div>
             </div>
         </div>
     </div>
-	
+
     <div class="main-category">
-        <div class="menu-button">			
-            <a href="location.html"><button type="submit" class="menu-button">Locations &amp; Hours</button></a>
-        </div>
-
-        <div class ="menu-button">
-            <a href="popular_bagel.html"><button type="submit" class="menu-button">Popular Bagels</button></a>
+        <div class="menu-button">
+            <a href="location.html">
+                <button type="submit" class="menu-button">Locations &amp; Hours</button>
+            </a>
         </div>
 
         <div class="menu-button">
-            <a href="menu.html"><button type="submit" class="menu-button">Menu</button></a>
+            <a href="popular_bagel.html">
+                <button type="submit" class="menu-button">Popular Bagels</button>
+            </a>
         </div>
 
         <div class="menu-button">
-            <a href="recents.html"><button type="submit" class="menu-button">Past Bagels</button></a>
+            <a href="menu.html">
+                <button type="submit" class="menu-button">Menu</button>
+            </a>
         </div>
 
         <div class="menu-button">
-            <a href="charity.html"><button type="submit" class="menu-button">Charity</button></a>
-        </div>  
+            <a href="recents.html">
+                <button type="submit" class="menu-button">Past Bagels</button>
+            </a>
+        </div>
+
+        <div class="menu-button">
+            <a href="charity.html">
+                <button type="submit" class="menu-button">Charity</button>
+            </a>
+        </div>
     </div>
-    
-    
+
+
     <!-- JAVASCRIPT-->
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/foundation.min.js"></script> 
+    <script src="js/vendor/foundation.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
     <script src="js/shake.js" type="text/javascript"></script>
     <script src="js/homepage.js" type="text/javascript"></script>
-    
+
 
 
     <script>
@@ -121,4 +126,5 @@
     </script>
 
 </body>
+
 </html>

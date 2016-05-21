@@ -46,15 +46,6 @@ body {
     margin-top: -3px;
 }
 
-
-.top-bar1 {
-    background-color: #ff5d2b;
-    position: relative;
-   -webkit-box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
-box-shadow: 1px 6px 35px -2px rgba(0,0,0,0.75);
-}
-
 .top-bar {
     background-color: #ff5d2b;
     position: relative;
@@ -134,7 +125,7 @@ h3 {
 }
 
 .reg-text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -221,23 +212,15 @@ h3 {
     width: 170px;
     height: 50px;
     margin: 0 auto;
-    text-align: center;
-    vertical-align: center;
-    cursor: pointer;
-    margin-top: 8px;
-}
-
-.reward-button2{
-    display: none;
 }
 
 #reward-button button {
-    padding: 15px 15px 10px 15px;
-    font-size: 22px;
+    padding: 15px 20px 15px 25px;
+    margin: -5px -10px -5px -10px;
+    font-size: 2em;
     color: #fff;
     font-family: 'josefin';
     font-weight: bold;
-    vertical-align: middle;
 }
 
 .sub_button {
@@ -256,6 +239,12 @@ h3 {
 
 .menu_price{
     vertical-align: center;
+}
+
+#catering{
+    background-color: #90d8f1;
+    padding: 0.1em 0.3em;
+    color: #ffffff;
 }
 
 
@@ -346,84 +335,7 @@ input {
     margin-left: 28px;
 }
 
-
-#tabs_wrapper {
-    width: 100%;
-    margin: 0 auto;
-    align-content: center;
-}
-#tabs_container {
-    width: 100%;
-    
-}
-#tabs {
-    list-style: none;
-    padding: 5px 0 4px 0;
-    margin-top: 20px;
-    width: 100%;
-}
-#tabs li {
-    display: inline;
-}
-#tabs li a {
-    padding: 4px 6px;
-    text-decoration: none;
-    color:#fefefe;
-    font-family: 'josefin', sans-serif; 
-    background-color: none;
-    font-size:18px;
-  
-}
-#tabs li a:hover {
-    background-color: none;
-    padding: 4px 6px;
-}
-#tabs li.active a {
-    background-color: #2199e8;
-    /*border-bottom: none;*/
-}
-#tabs li.active a:hover {
-    background-color: none;
-    /*border-bottom: none;*/
-}
- 
-#tabs li a.icon_accept {
-    background-position: 5px;
-    background-repeat: no-repeat;
-}
-#tabs li a.icon_accept:hover {
-}
- 
-#tabs_content_container {
-    width: 100%;
-    margin: 20px 0px;
-}
-.tab_content {
-    display: none;
+#logo_top{
+    margin:5%;
 }
 
-/* TAB CSS END */
-
-heart{
-  cursor: pointer;
-  display: block;
-  height: 80px;
-  width: 80px;
-  
-  background-size: auto 100%;
-  background-position: 0 0;
-  background-image: url(https://abs.twimg.com/a/1446304541/img/t1/web_heart_animation.png);
-    border: 1px solid black;
-}
-
-
-
-
-
-#past_bagel_wrapper {
-    margin-top: 20px;
-}
-
-.top-bar {
-    
-}
