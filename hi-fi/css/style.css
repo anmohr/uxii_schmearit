@@ -117,7 +117,7 @@ h3 {
     float: right;
     position: relative;
     font-size: 20px;
-    margin-top: -20px;
+    margin-top: -8px;
 }
 
 .right-button2 {
@@ -230,8 +230,8 @@ ul.button-group {
 #reward-button button {
     padding: 15px 20px 15px 25px;
     margin: -5px -10px -5px -10px;
-    font-size: 2em;
     color: #fff;
+    font-size: 24px;
     font-family: 'josefin';
     font-weight: bold;
 }
@@ -344,18 +344,7 @@ input {
     top: 1px;
 }
 
-/*
-<<<<<<< HEAD
-.button-group {
-    margin-left: 28px;
-}
 
-#logo_top{
-    margin:5%;
-}
-
-=======
-*/
 #tabs_wrapper {
     width: 100%;
     margin: 0 auto;
@@ -483,3 +472,7 @@ input {
 
 
 
+
+.reward-button2 {
+    display: none;
+}
