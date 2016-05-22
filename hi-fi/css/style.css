@@ -39,7 +39,10 @@ body {
 
 .button-group .button {
     font-size: 18px;
+    float: none;
+    padding: 8px 4px;
 }
+
 
 #home {
     float: left;
@@ -144,6 +147,16 @@ h3 {
 .button-group {
     float: none;
     margin: 0 auto;
+    width: 100%;
+}
+
+
+ul.button-group li {
+    float: none;
+    display: inline-block;
+}
+ul.button-group {
+        text-align: center;
 }
 
 .seg_control {
@@ -331,6 +344,8 @@ input {
     top: 1px;
 }
 
+/*
+<<<<<<< HEAD
 .button-group {
     margin-left: 28px;
 }
@@ -338,4 +353,133 @@ input {
 #logo_top{
     margin:5%;
 }
+
+=======
+*/
+#tabs_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+#tabs_container {
+    width: 100%;
+    
+}
+#tabs {
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#tabs li a {
+    padding: 4px 6px;
+    text-decoration: none;
+    color:#fefefe;
+    font-family: 'josefin', sans-serif; 
+    background-color: none;
+    font-size:20px;
+  
+}
+#tabs li a:hover {
+    background-color: none;
+    padding: 4px 6px;
+}
+#tabs li.active a {
+    background-color: #2199e8;
+    /*border-bottom: none;*/
+}
+#tabs li.active a:hover {
+    background-color: none;
+    /*border-bottom: none;*/
+}
+ 
+#tabs li a.icon_accept {
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+#tabs li a.icon_accept:hover {
+}
+ 
+#tabs_content_container {
+    width: 100%;
+    margin: 20px 0px;
+}
+.tab_content {
+    display: none;
+}
+
+/* TAB CSS END */
+
+
+/* HEART CSS STARTS */
+.Buttons {
+  border-radius: 50%;
+  background-color: transparent;
+  font-size: 20px;
+  color: #585858;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition-property: color, -webkit-transform;
+  transition-property: color, -webkit-transform;
+  transition-property: color, transform;
+  transition-property: color, transform, -webkit-transform;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  z-index: 1;
+    left: 12px;
+    top: -6px;
+}
+
+.Buttons:hover,
+.Buttons:focus {
+  color: #DE254B;
+}
+
+.Buttons.is-toggled {
+  color: #DE254B;
+}
+
+.Buttons-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.Buttons-icon--toggled {
+  opacity: 0;
+  color: #DE254B;
+}
+
+.Buttons.is-toggled .Buttons-icon--toggled {
+  opacity: 1;
+    color: #DE254B;
+}
+
+.Buttons:focus {
+  outline: none;
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
+}
+
+.Buttons::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* HEART CSS ENDS */
+
+
+
+#past_bagel_wrapper {
+    margin-top: 20px;
+}
+
+
+
+
 

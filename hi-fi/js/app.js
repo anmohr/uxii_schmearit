@@ -14,6 +14,7 @@ localStorage.setItem("typeDescriptions", JSON.stringify(movies));
 var retrievedData = localStorage.getItem("starRating");
 var retrievedData = localStorage.getItem("typedescriptions");
 
+<<<<<<< HEAD
 //rewards start//
 function clickCounter() {
 
@@ -34,3 +35,7 @@ function clickCounter() {
         document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
     }
 }
+=======
+
+
+>>>>>>> 570515c80e5b400960a5d328966729e7a05a51ab
