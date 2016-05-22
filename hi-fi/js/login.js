@@ -3,14 +3,13 @@ $(document).ready(function(){
 	homepagePanel();
 
 	var nameSpace = $("");
-	var nameSave  = $(".user-name-save");
+	var submitbutton  = $(".submitbutton");
 
 	// var element = $("#id");
 
-	nameSave.click(function(event) {
+	submitbutton.click(function(event) {
 		event.preventDefault();
 
-		localStorage.setItem("nameinput", $(".nameinput").val());
 		localStorage.setItem("user-email", $(".user-email").val());
 		localStorage.setItem("user-password", $(".user-password").val());
 
@@ -21,7 +20,7 @@ $(document).ready(function(){
 		//nameSpace.html(localStorage.getItem("user-name"));
 
 
-		$('.user-info').html(localStorage.getItem("nameinput") + localStorage.getItem("user-email") + localStorage.getItem("user-password"));
+		$('.user-info').html(localStorage.getItem("user-email") + localStorage.getItem("user-password"));
 	}
 
 	//// Clear localStorage

@@ -34,7 +34,7 @@ body {
     font-size: 18px;
 }
 
-#loginbutton{
+#submitbutton{
     background-color: #FF4D00;
     height: 40px;
     width: 100px;
@@ -62,20 +62,9 @@ color: white;
     
 }
 
-#submitbutton2{
-    background-color: #FF4D00;
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 10px;
-
-}
 
 #logo{
 height: 20%;
 margin-left: 20%;
 }
 
-
-.top-bar {
-    
-}

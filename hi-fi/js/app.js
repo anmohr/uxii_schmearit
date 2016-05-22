@@ -27,7 +27,7 @@ function clickCounter() {
         } else {
 
             localStorage.clickcount = 1;
-            document.getElementById("result").innerHTML = "You have a free bagel " + localStorage.clickcount + " time(s).";
+            document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " free bagel";
         }
         
     } else {
