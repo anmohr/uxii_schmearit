@@ -17,18 +17,22 @@
         <div class="row">
             <div class="medium-6 columns">
                 <label>Email
-                    <input id="user-email" type="text">
+                    <input class="login-email" type="text" placeholder="login email">
                 </label>
             </div>
             <div class="medium-6 columns">
                 <label>Password
-                    <input id="user-password" type="password" aria-describedby="passwordHelpText">
+                    <input id="login-password" type="password" placeholder="login pass">
                 </label>
                 <p class="help-text" id="passwordHelpText"></p>
             </div>
+            <input class="login-submit" type="submit" value="Submit">
         </div>
         
     </form>
+    
+    <p class="user-info"></p>
+    
     <div class="buttons">
         <a id="submitbutton" href="index.html" class="button">Submit</a>
         <br />
@@ -43,7 +47,7 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/login.js"></script>
 
 </body>
 

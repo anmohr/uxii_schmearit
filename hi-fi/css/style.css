@@ -488,14 +488,14 @@ input {
 
 #loginword {
     withd: 50%;
-    margin: 0 auto;
+    margin:  auto;
     text-align: center;
     color: white;
     
 }
 
 
-#login {
+.login {
     width: 100%;
     height: 90px;
     margin: 0 auto;
@@ -503,6 +503,7 @@ input {
     text-align: center;
 }
 
+.rewards, .login {
+	display: none;
+}
 
-#rewards {
-    display: none;
