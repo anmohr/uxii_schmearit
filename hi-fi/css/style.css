@@ -487,7 +487,13 @@ input {
 }
 
 #loginword {
+<<<<<<< HEAD
     margin: 0 auto;
+=======
+    withd: 50%;
+    margin:  auto;
+    text-align: center;
+>>>>>>> ae558417f06ec2847720ae08e03defcc72597d13
     color: white;
     font-size: 80%;
 
@@ -495,7 +501,7 @@ input {
 }
 
 
-#login {
+.login {
     width: 100%;
     height: 90px;
     margin: 0 auto;
@@ -503,6 +509,7 @@ input {
     text-align: center;
 }
 
+.rewards, .login {
+	display: none;
+}
 
-#rewards {
-    display: none;
