@@ -2,7 +2,6 @@ $(document).ready(function(){
 
 	homepagePanel();
 
-	var emailSpace = $(".user-email");
 	var emailSave  = $(".user-info-save");
 
 	// var element = $("#id");
@@ -13,7 +12,6 @@ $(document).ready(function(){
 		localStorage.setItem("user-email", $(".user-email").val());
 		localStorage.setItem("user-password", $(".user-password").val());
 
-		emailSpace.html($(".user-email").val());
 	});
 
 	if(localStorage.length > 0){
