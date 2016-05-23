@@ -34,7 +34,7 @@ body {
     font-size: 18px;
 }
 
-#loginbutton{
+#submitbutton{
     background-color: #FF4D00;
     height: 40px;
     width: 100px;
@@ -62,6 +62,7 @@ color: white;
     
 }
 
+<<<<<<< HEAD
 #submitbutton{
     background-color: #FF4D00;
     
@@ -74,6 +75,8 @@ color: white;
     margin-left: 10px;
 
 }
+=======
+>>>>>>> eba6519e5c109b7318fdbcda99429add22967fb3
 
 #logo{
 height: 20%;
