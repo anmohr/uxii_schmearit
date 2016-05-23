@@ -487,10 +487,10 @@ input {
 }
 
 #loginword {
-    withd: 50%;
     margin: 0 auto;
-    text-align: center;
     color: white;
+    font-size: 80%;
+
     
 }
 
