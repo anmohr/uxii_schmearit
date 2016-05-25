@@ -23,7 +23,7 @@ function clickCounter() {
         if (localStorage.clickcount<10) {
             
             localStorage.clickcount = Number(localStorage.clickcount) + 1;
-            document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points(s).";
+            document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points.";
         } else {
 
             localStorage.clickcount = 1;
