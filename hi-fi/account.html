@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en" manifest="manifest.appcache">
 
 <head>
     <meta charset="utf-8">
@@ -13,46 +13,51 @@
 
 <body>
     <img id="logo" src="images/schmearitlogo.png" alt="schmearitlogo">
-        <h1>Create Account</h1>
+    <h1>Create Account</h1>
     <form>
         <div class="row">
             <div class="medium-6 columns">
-                <span><label>Name 
-        <input class="user-name-input" type="text" placeholder="What is your name?">
-       </label> </span>
+                <span>
+                <input class="user-name-input" type="text" placeholder="What is your name?">
+                </span>
             </div>
 
 
             <div class="medium-6 columns">
-                <span> <label>Email
+                <span>
         		<input class="user-email" type="email" placeholder="What is your email?">
-         </label></span>
+                </span>
             </div>
 
+<!--
             <div class="medium-6 columns">
                 <label>Confirm Email
                     <input type="text">
                 </label>
             </div>
+-->
 
             <div class="medium-6 columns">
-                <span class="user-password"><label>Password
+                <span class="user-password">
                 <input class="user-password" type="password" placeholder="password">
-         </label> </span>
+                </span>
 
                 <p class="help-text" id="passwordHelpText">Your password must have at least 10 characters, a number, and an Emoji.</p>
             </div>
 
+<!--
             <div class="medium-6 columns">
                 <label>Confirm password
                     <input type="password" aria-describedby="passwordHelpText">
                 </label>
             </div>
+-->
             <input class="user-info-save" type="submit" value="Submit">
-            <a id="submitbutton2" href="index.html" class="button">Submit</a>
+<!--            <a id="submitbutton2" href="index.html" class="button">Submit</a>-->
             <br />
         </div>
     </form>
+    <p class="user-info"></p>
 </body>
 
 </html>
@@ -60,3 +65,4 @@
 <script src="js/vendor/what-input.js"></script>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/login.js"></script>
+<script src="js/vendor/refresh-manifest.js"></script>

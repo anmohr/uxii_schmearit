@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
 	homepagePanel();
-
-	var emailSave  = $(".user-info-save");
+    
+    var nameSpace = $(".user-name");
+	var emailSave = $(".user-info-save");
 
 	// var element = $("#id");
 
@@ -18,7 +19,7 @@ $(document).ready(function(){
 		//nameSpace.html(localStorage.getItem("user-name"));
 
 
-		$('.user-info').html(localStorage.getItem("user-email") + localStorage.getItem("user-password"));
+		$('.user-info').html(localStorage.getItem("user-name" + localStorage.getItem("user-email") + localStorage.getItem("user-password"));
 	}
 
 	//// Clear localStorage
