@@ -7,13 +7,14 @@ $(document).ready(function(){
 
 	// var element = $("#id");
 
-	submitbutton.click(function(event) {
+	nameSave.click(function(event) {
 		event.preventDefault();
         
         localStorage.setItem("user-name", $(".user-name-input").val());
 		localStorage.setItem("user-email", $(".user-email").val());
 		localStorage.setItem("user-password", $(".user-password").val());
 
+        nameSpace.html($"user-name-input").val());
 	});
 
 	if(localStorage.length > 0){
