@@ -502,11 +502,16 @@ input {
     margin: 0 auto;
     font-size: 30px;
     text-align: center;
+    border: 1px solid white;
 }
 
 .rewards, .login {
 	display: none;
+    border: 1px solid white;
+   background-color: #2e4c57;
 }
+
+
 
 
 
