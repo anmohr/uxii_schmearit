@@ -481,23 +481,18 @@ input {
 
 #loginbutton {
     background-color: #ff5d2b;
-    margin: 0 auto;
     font-size: 30px;
+    text-align: center;
+    float: left;
     
 }
 
 #loginword {
-<<<<<<< HEAD
-    margin: 0 auto;
-=======
-    withd: 50%;
+    width: 60%;
     margin:  auto;
     text-align: center;
->>>>>>> ae558417f06ec2847720ae08e03defcc72597d13
     color: white;
-    font-size: 80%;
-
-    
+    font-size: 20px;
 }
 
 
