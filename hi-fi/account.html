@@ -9,54 +9,35 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/accountlog.css">
 
+
+    <style>
+			.rewards, .login {
+				display: none;
+			}
+
+            .user-info {
+                    border: 1px solid black;
+                }
+            .logout {
+                background-color: bisque;
+            }
+		</style>
+
 </head>
 
 <body>
     <img id="logo" src="images/schmearitlogo.png" alt="schmearitlogo">
     <h1>Create Account</h1>
     <form>
-        <div class="row">
-            <div class="medium-6 columns">
-                <span>
-                <input class="user-name-input" type="text" placeholder="What is your name?">
-                </span>
-            </div>
+		<input class="user-name-input" type="text" placeholder="What is your name?">
+		<input class="user-email" type="email" placeholder="What is your email?">
+		<input class="user-password" type="password" placeholder="password">
+		<input class="user-name-save" type="submit" value="Save Name">
+	</form>
 
 
-            <div class="medium-6 columns">
-                <span>
-        		<input class="user-email" type="email" placeholder="What is your email?">
-                </span>
-            </div>
-
-<!--
-            <div class="medium-6 columns">
-                <label>Confirm Email
-                    <input type="text">
-                </label>
-            </div>
--->
-
-            <div class="medium-6 columns">
-                <span class="user-password">
-                <input class="user-password" type="password" placeholder="password">
-                </span>
-
-                <p class="help-text" id="passwordHelpText">Your password must have at least 10 characters, a number, and an Emoji.</p>
-            </div>
-
-<!--
-            <div class="medium-6 columns">
-                <label>Confirm password
-                    <input type="password" aria-describedby="passwordHelpText">
-                </label>
-            </div>
--->
-            <input class="user-info-save" type="submit" value="Submit">
-<!--            <a id="submitbutton2" href="index.html" class="button">Submit</a>-->
-            <br />
-        </div>
-    </form>
+	<p class="user-info"></p>
+  <a href="login.html">login btn</a>
 </body>
 
 </html>
