@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Location</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Normalize/reset -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Foundation -->
+    <link rel="stylesheet" href="css/foundation.css">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="top-bar">
+        <div class="large-12 columns">
+			<div class="home-btn">
+                <a id="home" href="index.html"> <img src="images/web.png" alt="home"></a>
+            </div>
+		<h1>Charity</h1>
+		</div>
+	</div>
+	
+	<div class="reward-button2">
+        <a href="#" data-open="myModal" class="reg-text">Scan for Points</a>
+
+        <div id="myModal" class="reveal" data-reveal>
+            <img src="images/qrcode.png" alt="qrcode">
+            <h2 id="modalTitle"></h2>
+            <p class="lead">You can also shake your phone in the future to pull up the QR code to gain and use rewards!</p>
+            <a class="close-button" data-close>&#215;</a>
+        </div>
+    </div>
+	
+	<div class="content">
+        <img src="images/actionaids.png" class="thumbnail" alt="Photo of Actionaids">
+        
+        <div class="content-desc reg-text">   
+            <h1>ActionAIDS</h1>
+            <p>ActionAIDS is a Philadelphia, PA based organization, committed to creating an AIDS-free generation through a combination of proven strategies. Our services include case management, HIV testing, prevention education, supportive housing, HIV treatment as prevention and volunteer services.</p>
+
+            <p>Through its work in partnership with people living with HIV/AIDS, ActionAIDS seeks to sustain and enhance their quality of life. ActionAIDS currently serves over 4,000 clients a year through the efforts of over 350 dedicated volunteers and 84 professional staff. ActionAIDS staff and volunteers are privileged to be invited into the lives of thousands of men, women and children who are faced with the challenges of living with HIV disease. ActionAIDS' volunteers and staff focus on building relationships one person and one family at a time. The agency's services are relationship focused, client centered and individualized. ActionAIDS continues to build a strong, diverse and committed community of caring to make sure that no one faces AIDS alone. As an example of ActionAIDS impact: </p>
+
+            <ol>
+                <li>$25 provides food for a client in an emergency situation.</li>
+                <li>$50 covers transportation to medical appointments for a client for a month.</li>
+                <li>$100 provides a bed for a formerly homeless client. </li>
+            </ol>
+            <div>
+            <p>For more information visit: <a href="http://actionaids.org/">http://actionaids.org/</a></p>
+        </div>
+        </div>
+        
+	</div>
+	
+	 <!-- JAVASCRIPT-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.min.js"></script> 
+    <script src="js/vendor/what-input.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/vendor/refresh-manifest.js" type="text/javascript"></script>
+    <script src="js/shake.js" type="text/javascript"></script>
+    <script src="js/homepage.js" type="text/javascript"></script>
+    
+
+
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
