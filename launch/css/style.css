@@ -38,9 +38,9 @@ body {
 }
 
 .button-group .button {
-    font-size: 18px;
+    font-size: 22px;
     float: none;
-    padding: 8px 4px;
+    padding: 10px 10px;
 }
 
 
@@ -151,12 +151,14 @@ h3 {
 }
 
 
+
 ul.button-group li {
     float: none;
     display: inline-block;
 }
 ul.button-group {
         text-align: center;
+		
 }
 
 .seg_control {
@@ -241,8 +243,8 @@ ul.button-group {
     background-color: #ff5d2b;
     border-right: 1px solid #fefefe;
     text-align: center;
-    font-size: 18px;
-    padding: 0.6em 1.2em;
+    font-size: 22px;
+    padding: 0.5em 1em;
     color: white;
 }
 
