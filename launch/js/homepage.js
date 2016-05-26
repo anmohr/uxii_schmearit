@@ -1,3 +1,5 @@
+var bagelReward = false;
+
 if(localStorage.getItem('rewards') > 0){
     var rewards = localStorage.getItem('rewards');
 		$('.points').html(localStorage.getItem("rewards"));
@@ -47,5 +49,36 @@ function shakeEventDidOccur () {
 }
 
 $('.close-button').click(function(){
+    
+    if(!bagelReward){
+        if(localStorage.clickcount != 9 ){
+            localStorage.clickcount = Number(localStorage.clickcount) + 1;
+            document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points."; 
+            
+            $('#bagel').removeClass();
+            $('#bagel').addClass('bagel-' + localStorage.clickcount);
+        } else {
+            localStorage.clickcount = 0;
+            document.getElementById("result").innerHTML = "You have " + 1 + " free bagel";
+            bagelReward = true; 
+            
+            $('#bagel').removeClass();
+            $('#bagel').addClass('bagel-full');
+        }
+    } else {
+        localStorage.clickcount = 0;
+        bagelReward = false;
+        document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points."; 
+        
+        $('#bagel').removeClass();
+        $('#bagel').addClass('bagel-' + localStorage.clickcount);
+    }
+    
+    console.log(bagelReward);
+    
+    
+    
+    
     $('.close-button').foundation('close');
+    
 })
