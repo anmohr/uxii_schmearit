@@ -513,3 +513,17 @@ input {
 
 
 
+
+.locaion-wrap {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.time-left {
+	width: 44%;
+	text-align:center;
+}
+
+.location-left {
+	width: 40%;
+}
