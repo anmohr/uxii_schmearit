@@ -34,14 +34,6 @@ body {
     font-size: 18px;
 }
 
-#submitbutton{
-    background-color: #FF4D00;
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-    padding-top: 12px;
-
-}
 
 .row label{
 color: white;
@@ -49,12 +41,15 @@ color: white;
 }
 
 .buttons{
-    margin-left: 10px;
+    margin: 10px auto;
+	display: flex;
+	vertical-align: middle;
 }
 
 #fbbutton{
     background-color: #3b5998;
-    margin-top: 5px;
+	color: white;
+	margin: 0 auto;
 }
 
 #passwordHelpText{
@@ -62,17 +57,61 @@ color: white;
     
 }
 
-#submitbutton2{
-    background-color: #FF4D00;
-    width: 100px;
-    margin-top: 20px;
-    margin-left: 10px;
-
-}
-
 #logo{
 height: 20%;
-margin-left: 20%;
+margin:0 auto;
+display: flex;
+}
+
+input.user-name-save {
+	width: 100%;
+	text-align: center;
+	background-color: #FF4D00;
+	font-size: 20px;
+	border:none;
+	color: white;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-top: 5px;
 }
 
 
+input.login-submit {
+	background-color: #FF4D00;
+	width: 100%;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 20px;
+	border:none;
+	color: white;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.button {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.board {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.left {
+	width: 50%;
+	float: left;
+}
+
+.right {
+	width: 50%;
+	float: right;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
