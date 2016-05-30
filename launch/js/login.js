@@ -19,8 +19,9 @@ $(document).ready(function(){
 		localStorage.setItem("user-email", $(".user-email").val());
 		localStorage.setItem("user-password", $(".user-password").val());
 
-
+		
 		nameSpace.html($(".user-name-input").val());
+		window.location="login.html";
 	});
 
 
@@ -47,6 +48,7 @@ $('.login-submit').click(function(event) {
 	if( $('.login-name').val() == username ) {
 		localStorage.setItem("login-status", "true");
 		console.log(localStorage.getItem('login-status'));
+		window.location="index.html";
 	} else {
 		alert("wrong info. check it.");
 	}
