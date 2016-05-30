@@ -61,9 +61,11 @@ function homepagePanel(){
 	if( localStorage.getItem("login-status") == "true") {
 		$('.rewards').show();
 		$('.login').hide();
+		$('.logout').show();
 	} else {
 		$('.login').show();
 		$('.rewards').hide();
+		$('.logout').hide();
 	}
 };
 
