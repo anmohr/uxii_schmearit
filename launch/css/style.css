@@ -484,10 +484,15 @@ input {
 }
 
 #loginbutton {
+    display: block;
     background-color: #ff5d2b;
     font-size: 30px;
-    text-align: center;
     margin: 0 auto;
+        text-align: center;
+    width: 100px;
+    color: white;
+/*    margin-left: 40%;*/
+  
     
 }
 
@@ -501,8 +506,9 @@ input {
 
 
 .login p {
+    display: inherit;
     width: 100%;
-    height: 90px;
+    height: 80px;
     margin: 0 auto;
     font-size: 24px;
     text-align: center;
