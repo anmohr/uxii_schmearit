@@ -21,12 +21,12 @@ $(document).ready(function(){
 	var LSCart;
 	totalRow = $('.total-row');
     
-    var itemName = [];
-    var itemDescription = [];
-    var itemPrice = [];
-    var itemHeart = [];
-    var itemStar = [1, 2, 3, 4, 5];
-    var ratings = [itemName, itemDescription, itemPrice, itemHeart, itemStar];
+    var itemCategory;
+    var itemDescription;
+    var itemPrice;
+    var itemHeart;
+    var itemStar;
+    //var ratings = [itemName, itemDescription, itemPrice, itemHeart, itemStar];
 
     
     // ratings structure
