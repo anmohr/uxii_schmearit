@@ -10,9 +10,6 @@ if(localStorage.getItem('rewards') > 0){
 
   if (localStorage.getItem('rewards') == 10) {
     $('.points').css("color", "red");
- document.getElementById('bagel').style.backgroundImage="url(bagelimages/10.png)";
-      
-      
   }
 
   //localStorage.setItem("rewards", rewards);
@@ -29,12 +26,11 @@ if(localStorage.getItem('rewards') > 0){
     localStorage.setItem("rewards", rewards);
     $('.points').html(localStorage.getItem("rewards"));
 
-    if (localStorage.getItem('rewards') == 11) {
-     
+    if (localStorage.getItem('rewards') == 10) {
+      $('.points').css("color", "red");
     }
 
   });
-
 
 var myShakeEvent = new Shake({
     threshold: 15, // optional shake strength threshold
@@ -65,7 +61,7 @@ $('.close-button').click(function(){
             localStorage.clickcount = 0;
             document.getElementById("result").innerHTML = "You have " + 1 + " free bagel";
             bagelReward = true; 
-            ocument.getElementById("bagel").src = "bagelimages/1.png";
+            
             $('#bagel').removeClass();
             $('#bagel').addClass('bagel-full');
         }
@@ -77,26 +73,10 @@ $('.close-button').click(function(){
         $('#bagel').removeClass();
         $('#bagel').addClass('bagel-' + localStorage.clickcount);
     }
-}
-    console.log(bagelReward);
-
-//attempt at making picture update
     
-//        if(localStorage.clickcount = 1 ){
-//          document.getElementById("bagel").src = "bagelimages/1.png";
-//        }
-//console.log(clickcount)
-//        } else if (localStorage.clickcount = 2 ){
-//        
-//         document.getElementById("bagel").src = "bagelimages/2.png";
-//            
-//            
-//        }
-//    } else if(localStorage.clickcount = 3 ){
-//        document.getElementById("bagel").src = "bagelimages/3.png";
-//
-//
-//    }
+    console.log(bagelReward);
+    
+    
     
     
     $('.close-button').foundation('close');
