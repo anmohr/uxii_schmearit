@@ -62,8 +62,8 @@ $('.close-button').click(function(){
             document.getElementById("result").innerHTML = "You have " + 1 + " free bagel";
             bagelReward = true; 
             
-            $('#bagel').removeClass('bagel2');
-            $('#bagel').addClass('bagel1');
+            $('#bagel').removeClass();
+            $('#bagel').addClass('bagel10');
         }
     } else {
         localStorage.clickcount = 0;

@@ -212,69 +212,85 @@ ul.button-group {
 }
 
 .bagel1{
-	background-image: url(../images/BAGEL.png);
+	margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../bagelimages/1.png);
 	background-repeat: no-repeat;
+	
 }
 
 .bagel2{
+	margin-left: 18px;
+    margin-top: 10px;
 	background-image: url(../bagelimages/2.png);
 	background-repeat: no-repeat;
 }
 
 .bagel3{
+	margin-left: 18px;
+    margin-top: 10px;
 	background-image: url(../bagelimages/3.png);
 	background-repeat: no-repeat;
 }
 
 .bagel4{
+	margin-left: 18px;
+    margin-top: 10px;
 	background-image: url(../bagelimages/4.png);
 	background-repeat: no-repeat;
 }
 
 .bagel5{
+	margin-left: 18px;
+    margin-top: 10px;
 	background-image: url(../bagelimages/5.png);
 	background-repeat: no-repeat;
 }
 
 .bagel6{
+	margin-left: 18px;
+    margin-top: 5px;
 	background-image: url(../bagelimages/6.png);
 	background-repeat: no-repeat;
 }
 
 .bagel7{
+	margin-left: 18px;
+    margin-top: 5px;
 	background-image: url(../bagelimages/7.png);
 	background-repeat: no-repeat;
 }
 
 .bagel8{
+	margin-left: 18px;
+    margin-top: 5px;
 	background-image: url(../bagelimages/8.png);
 	background-repeat: no-repeat;
 }
 
 .bagel9{
+	margin-left: 18px;
+    margin-top: 5px;
 	background-image: url(../bagelimages/9.png);
 	background-repeat: no-repeat;
 }
 
 .bagel10{
+	margin-left: 18px;
+    margin-top: 5px;
 	background-image: url(../bagelimages/10.png);
 	background-repeat: no-repeat;
 }
 
 .bagelpic {
-    margin-left: 40px;
+    margin-left: 18px;
     margin-top: 10px;
 	background-image: url(../images/BAGEL.png);
 }
 
-.bagelpic_1 {
-    margin-left: 40px;
-    margin-top: 10px;
-	
-}
 
 .words {
-    width: 65%;
+    width: 60%;
     float: right;
     margin-top: 20px;
     margin-right:
