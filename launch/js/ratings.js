@@ -14,6 +14,8 @@
 //var retrievedData = localStorage.getItem("starRating");
 //var retrievedData = localStorage.getItem("typedescriptions");
 
+
+
 $('.sub_button').click(function(e){
     console.log(localStorage.getItem("score"));
     console.log(localStorage.getItem("category"));
@@ -43,3 +45,4 @@ $(document).ready(function(){
     var fill = document.getElementsByClassName('ls-item')[0];
     fill.innerHTML = localStorage.getItem('item-name');
 });
+
