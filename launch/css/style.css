@@ -612,4 +612,8 @@ input {
 	width: 40%;
 }
 
+/*heart svg*/
+#Layer_1:hover{
+	cursor: pointer;
+}
 
