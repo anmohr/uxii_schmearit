@@ -208,11 +208,69 @@ ul.button-group {
     width: 35%;
 	height: 140px;
     float: left;
+	
 }
 
-#bagelpic {
-    margin-left: 30px;
+.bagel1{
+	background-image: url(../images/BAGEL.png);
+	background-repeat: no-repeat;
+}
+
+.bagel2{
+	background-image: url(../bagelimages/2.png);
+	background-repeat: no-repeat;
+}
+
+.bagel3{
+	background-image: url(../bagelimages/3.png);
+	background-repeat: no-repeat;
+}
+
+.bagel4{
+	background-image: url(../bagelimages/4.png);
+	background-repeat: no-repeat;
+}
+
+.bagel5{
+	background-image: url(../bagelimages/5.png);
+	background-repeat: no-repeat;
+}
+
+.bagel6{
+	background-image: url(../bagelimages/6.png);
+	background-repeat: no-repeat;
+}
+
+.bagel7{
+	background-image: url(../bagelimages/7.png);
+	background-repeat: no-repeat;
+}
+
+.bagel8{
+	background-image: url(../bagelimages/8.png);
+	background-repeat: no-repeat;
+}
+
+.bagel9{
+	background-image: url(../bagelimages/9.png);
+	background-repeat: no-repeat;
+}
+
+.bagel10{
+	background-image: url(../bagelimages/10.png);
+	background-repeat: no-repeat;
+}
+
+.bagelpic {
+    margin-left: 40px;
     margin-top: 10px;
+	background-image: url(../images/BAGEL.png);
+}
+
+.bagelpic_1 {
+    margin-left: 40px;
+    margin-top: 10px;
+	
 }
 
 .words {
@@ -231,6 +289,7 @@ ul.button-group {
     width: 170px;
     height: 45px;
     margin: 0 auto;
+	box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.40);
 }
 
 #reward-button button {
