@@ -208,15 +208,89 @@ ul.button-group {
     width: 35%;
 	height: 140px;
     float: left;
+	
 }
 
-#bagelpic {
-    margin-left: 30px;
+.bagel1{
+	margin-left: 18px;
     margin-top: 10px;
+	background-image: url(../bagelimages/1.png);
+	background-repeat: no-repeat;
+	
 }
+
+.bagel2{
+	margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../bagelimages/2.png);
+	background-repeat: no-repeat;
+}
+
+.bagel3{
+	margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../bagelimages/3.png);
+	background-repeat: no-repeat;
+}
+
+.bagel4{
+	margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../bagelimages/4.png);
+	background-repeat: no-repeat;
+}
+
+.bagel5{
+	margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../bagelimages/5.png);
+	background-repeat: no-repeat;
+}
+
+.bagel6{
+	margin-left: 18px;
+    margin-top: 5px;
+	background-image: url(../bagelimages/6.png);
+	background-repeat: no-repeat;
+}
+
+.bagel7{
+	margin-left: 18px;
+    margin-top: 5px;
+	background-image: url(../bagelimages/7.png);
+	background-repeat: no-repeat;
+}
+
+.bagel8{
+	margin-left: 18px;
+    margin-top: 5px;
+	background-image: url(../bagelimages/8.png);
+	background-repeat: no-repeat;
+}
+
+.bagel9{
+	margin-left: 18px;
+    margin-top: 5px;
+	background-image: url(../bagelimages/9.png);
+	background-repeat: no-repeat;
+}
+
+.bagel10{
+	margin-left: 18px;
+    margin-top: 5px;
+	background-image: url(../bagelimages/10.png);
+	background-repeat: no-repeat;
+}
+
+.bagelpic {
+    margin-left: 18px;
+    margin-top: 10px;
+	background-image: url(../images/BAGEL.png);
+}
+
 
 .words {
-    width: 65%;
+    width: 60%;
     float: right;
     margin-top: 20px;
     margin-right:
@@ -231,6 +305,7 @@ ul.button-group {
     width: 170px;
     height: 45px;
     margin: 0 auto;
+	box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.40);
 }
 
 #reward-button button {

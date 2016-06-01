@@ -56,14 +56,14 @@ $('.close-button').click(function(){
             document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points."; 
             
             $('#bagel').removeClass();
-            $('#bagel').addClass('bagel-' + localStorage.clickcount);
+            $('#bagel').addClass('bagel' + localStorage.clickcount);
         } else {
             localStorage.clickcount = 0;
             document.getElementById("result").innerHTML = "You have " + 1 + " free bagel";
             bagelReward = true; 
             
             $('#bagel').removeClass();
-            $('#bagel').addClass('bagel-full');
+            $('#bagel').addClass('bagel10');
         }
     } else {
         localStorage.clickcount = 0;
@@ -71,7 +71,7 @@ $('.close-button').click(function(){
         document.getElementById("result").innerHTML = "You have " + localStorage.clickcount + " points."; 
         
         $('#bagel').removeClass();
-        $('#bagel').addClass('bagel-' + localStorage.clickcount);
+        $('#bagel').addClass('bagel' + localStorage.clickcount);
     }
     
     console.log(bagelReward);
