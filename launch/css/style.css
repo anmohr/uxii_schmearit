@@ -206,8 +206,8 @@ ul.button-group {
 
 #bagel {
     width: 35%;
+	height: 140px;
     float: left;
-    background-image: url(images/bagel1.png)
 }
 
 #bagelpic {
@@ -229,13 +229,13 @@ ul.button-group {
 #reward-button {
     background-color: #ff5d2b;
     width: 170px;
-    height: 50px;
+    height: 45px;
     margin: 0 auto;
 }
 
 #reward-button button {
-    padding: 15px 20px 15px 25px;
-    margin: -5px -10px -5px -10px;
+    padding: 10px 18px 15px 25px;
+    margin: -10px -10px -6px -10px;
     color: #fff;
     font-size: 24px;
     font-family: 'josefin';
@@ -476,6 +476,7 @@ input {
     display: none;
 }
 
+
 #result {
     width: 80%;
     height: 30px;
@@ -520,10 +521,6 @@ input {
 .rewards, .login {
 	display: none;
 }
-
-
-
-
 
 
 .locaion-wrap {
