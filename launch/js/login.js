@@ -44,8 +44,9 @@ $('.login-submit').click(function(event) {
 	event.preventDefault();
 
 	var username = localStorage.getItem("user-name");
-
-	if( $('.login-name').val() == username ) {
+	var userpassword = localStorage.getItem("user-password");
+		
+	if( $('.login-name').val() == username && $('.login-password').val() == userpassword )  {
 		localStorage.setItem("login-status", "true");
 		console.log(localStorage.getItem('login-status'));
 		window.location="index.html";
