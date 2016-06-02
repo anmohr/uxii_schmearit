@@ -115,3 +115,7 @@ input.login-submit {
 	margin: 0 auto;
 	text-align: center;
 }
+
+.user-info {
+	display: none;
+}
