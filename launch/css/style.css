@@ -178,7 +178,7 @@ ul.button-group {
 .content-desc {
     max-width: 88%;
     margin: 0 auto;
-    text-align: justify;
+
 }
 
 .bottom {
@@ -191,7 +191,9 @@ ul.button-group {
     background-color: #90d8f1;
     padding: 0.2em 0.5em;
     color: #ffffff;
-	box-shadow: 0px 1px 6px 1px rgba(0,0,0,0.40);
+    font-size: 27px;
+    border-radius: 3px;
+    
 }
 
 .star {
@@ -208,9 +210,16 @@ ul.button-group {
     width: 35%;
 	height: 140px;
     float: left;
+
 	
 }
+.bagel0{
+    margin-left: 18px;
+    margin-top: 10px;
+ background-image: url(../bagelimages/crumbs.png);
+	background-repeat: no-repeat;
 
+}
 .bagel1{
 	margin-left: 18px;
     margin-top: 10px;
@@ -346,8 +355,10 @@ ul.button-group {
 
 .rate {
     width: 38%;
+    height: 40px;
     float: right;
     margin-top: 22px;
+    padding-left: 5px;
 }
 
 .rate1 {
@@ -569,6 +580,7 @@ input {
         text-align: center;
     width: 100px;
     color: white;
+    border-radius: 2px;
 /*    margin-left: 40%;*/
   
     
