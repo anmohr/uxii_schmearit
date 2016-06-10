@@ -37,12 +37,13 @@ $('.rateMe-button').click(function(e){
     
     var itemName = $('.menu-item').data('menu-item');
     localStorage.setItem("item-name", itemName);
-    
 });
 
 
 $(document).ready(function(){
-    var fill = document.getElementsByClassName('ls-item')[0];
-    fill.innerHTML = localStorage.getItem('item-name');
+    //var fill = document.getElementsByClassName('ls-item')[0];
+    //fill.innerHTML = localStorage.getItem('item-name');
 });
+
+
 

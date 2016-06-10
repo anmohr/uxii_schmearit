@@ -160,6 +160,10 @@ ul.button-group li {
 }
 ul.button-group {
         text-align: center;
+        margin: 0px;
+        padding: 0px;
+        display: table;
+    
 		
 }
 
@@ -470,6 +474,9 @@ input {
 #tabs li.active a {
     background-color: #2199e8;
     /*border-bottom: none;*/
+    padding: 10px 16px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 #tabs li.active a:hover {
     background-color: none;
@@ -629,4 +636,17 @@ input {
 
 #Capa_1:hover{
 	cursor: pointer;
+}
+.fave-bagel {
+    
+}
+
+
+.row.signature-bagel {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.row.signature-bagel:last-of-type {
+    border-bottom:  none;
 }
