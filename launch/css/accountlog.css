@@ -96,14 +96,13 @@ input.login-submit {
     display: block;
     height: 40px;
     float: right;
-    border-radius: 3px;
     
 }
 
 .button {
 	margin: 0 auto;
 	text-align: left;
-    border-radius: 3px;
+  
 }
 
 .board {

@@ -192,7 +192,6 @@ ul.button-group {
     padding: 0.2em 0.5em;
     color: #ffffff;
     font-size: 27px;
-    border-radius: 3px;
     
 }
 
@@ -516,11 +515,11 @@ input {
 
 .Buttons:hover,
 .Buttons:focus {
-  color: #DE254B;
+
 }
 
 .Buttons.is-toggled {
-  color: #DE254B;
+ 
 }
 
 .Buttons-icon {
@@ -580,7 +579,6 @@ input {
         text-align: center;
     width: 100px;
     color: white;
-    border-radius: 2px;
 /*    margin-left: 40%;*/
   
     
