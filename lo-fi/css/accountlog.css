@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'economicaregular';
+    src: url('../font/economica-regular-otf-webfont.eot');
+    src: url('../font/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/economica-regular-otf-webfont.woff2') format('woff2'),
+         url('../font/economica-regular-otf-webfont.woff') format('woff'),
+         url('../font/economica-regular-otf-webfont.ttf') format('truetype'),
+         url('../font/economica-regular-otf-webfont.svg#economicaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    
+    text-align: center;
+    color: #7FDBFA;
+}
+
+body {
+    background-color: #2E2E2E;
+    margin: 20px;
+    font-size: 18px;
+}
+
+#submitbutton{
+    background-color: #FF4D00;
+    height: 44px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.row label{
+color: white;
+    font-size: 18px;
+}
+
+.buttons{
+    margin-left: 10px;
+}
+
+#fbbutton{
+    background-color: #3b5998;
+    margin-top: 5px;
+}
+
+#passwordHelpText{
+    color: white;
+    
+}
+
+#submitbutton2{
+    background-color: #FF4D00;
+    height: 44px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+#logo{
+height: 20%;
+margin-left: 23%;
+}
+

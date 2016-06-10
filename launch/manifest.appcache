@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# version - 74
+
+CACHE:
+
+# CSS
+css/accountlog.css
+
+# IMAGES
+
+
+# HTML FILES
+index.html
+login.html
+account.html
+
+# JAVASCRIPT - SPECIFIC ORDER
+js/app.js
+js/login.js
+js/vendor/refresh-manifest.js
+js/jquery-2.2.3.js
+
+## Any resources not listed above will require the user to be online.
+NETWORK:
+*

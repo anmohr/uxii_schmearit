@@ -1,0 +1,26 @@
+
+body{
+	background-color: #F4EFEB;
+}
+
+.button{
+	background-color: #FE3501;
+}
+
+#title {
+
+float:left;
+margin: auto;
+
+}
+
+
+.menu-button {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.rewards-button {
+    border: 1px solid black;
+    padding: 3em;
+}
