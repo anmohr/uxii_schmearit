@@ -1,10 +1,14 @@
 $(document).ready(function(){
     
+    
+    
     //localStorage.clear();
     
     if(!localStorage.clickcount) {
         localStorage.clickcount = 0;
     }
+    
+    
     
     
     $('#result').html("You have " + localStorage.clickcount + " points.");
@@ -36,22 +40,22 @@ function clickCounter() {
 //    
     
 }
+//
+//var printBagels = "";
+//
+//var savedBagels = ["Everything"," Vegetable<br>"," Soy Sauce"," Tuna"];
+//                 
+//                   
+//for (i=0;i<savedBagels.length;i++){
+//    
+//    //printBagel += savedBagels[i][0];
+//    for (j=0;j<savedBagels[i].length;j++){
+//        printBagels += savedBagels[i][j];
+//    }
+//}
 
-var printBagels = "";
 
-var savedBagels = ["Everything"," Vegetable<br>"," Soy Sauce"," Tuna"];
-                 
-                   
-for (i=0;i<savedBagels.length;i++){
-    
-    //printBagel += savedBagels[i][0];
-    for (j=0;j<savedBagels[i].length;j++){
-        printBagels += savedBagels[i][j];
-    }
-}
-
-
-$('#stuff').html(printBagels);   
+// $('#stuff').html(printBagels);   
             
 $(document).ready(function(){
     $("button").click(function(){

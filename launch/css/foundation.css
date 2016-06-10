@@ -1493,7 +1493,7 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #1583cc;
+/*    background-color: #1583cc;*/
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
